@@ -11,13 +11,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
-		<Item Name="Blinking Boolean.vi" Type="VI" URL="../../Labview Toolbox/Blinking Boolean.vi"/>
 		<Item Name="Data Logger.lvlib" Type="Library" URL="../Data Logger/Data Logger.lvlib"/>
 		<Item Name="Display Panel.lvlib" Type="Library" URL="../WT1600 Card/Display Panel/Display Panel.lvlib"/>
 		<Item Name="Generic Instrument.lvlib" Type="Library" URL="../Generic Instrument.lvlib"/>
 		<Item Name="Observer Pattern Actor Interface.lvlib" Type="Library" URL="../WT1600 Card/Observer Pattern Actor Template/Observer Pattern Actor Interface.lvlib"/>
 		<Item Name="Sting Contains.vi" Type="VI" URL="../../Labview Toolbox/Sting Contains.vi"/>
-		<Item Name="WT1600 Integrator Query.vi" Type="VI" URL="../../Labview Toolbox/WT1600 Integrator Query.vi"/>
 		<Item Name="WT1600.lvlib" Type="Library" URL="../WT1600 Card/WT1600/WT1600.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -250,7 +248,6 @@
 				<Item Name="ParseXMLParams.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/ParseXMLParams.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set DDT Attributes.lvlib" Type="Library" URL="/&lt;vilib&gt;/express/express signal manip/GetorSetDDTAttributes/Set DDT Attributes/Set DDT Attributes.lvlib"/>
 				<Item Name="Set Property (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Set Property (DBL).vi"/>
 				<Item Name="Set Property (Enum).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Set Property (Enum).vi"/>
 				<Item Name="Set Property (I16).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Set Property (I16).vi"/>

@@ -4,5 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">302022660</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Message for ALL INSTRUMENTS" Type="Folder">
+		<Item Name="Log Starter Msg.lvclass" Type="LVClass" URL="../Generic Instrument Messages/Log Starter Msg/Log Starter Msg.lvclass"/>
+	</Item>
 	<Item Name="Generic Instrument.lvclass" Type="LVClass" URL="../Generic Instrument/Generic Instrument.lvclass"/>
 </Library>

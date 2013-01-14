@@ -16,5 +16,6 @@
 		<Item Name="Write W-Hrs. Ref  Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write W-Hrs. Ref  Msg/Write W-Hrs. Ref  Msg.lvclass"/>
 	</Item>
 	<Item Name="Abstract Display.lvclass" Type="LVClass" URL="../Abstract Display/Abstract Display.lvclass"/>
+	<Item Name="Blinking Boolean.vi" Type="VI" URL="../../../../Labview Toolbox/Blinking Boolean.vi"/>
 	<Item Name="Power Meter Display.lvclass" Type="LVClass" URL="../Power Meter Display/Power Meter Display.lvclass"/>
 </Library>

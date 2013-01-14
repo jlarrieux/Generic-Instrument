@@ -19,4 +19,5 @@
 		<Item Name="WT1600.lvclass" Type="LVClass" URL="../WT1600/WT1600.lvclass"/>
 	</Item>
 	<Item Name="1600Card.lvlib" Type="Library" URL="../../1600Card/1600Card.lvlib"/>
+	<Item Name="WT1600 Integrator Query.vi" Type="VI" URL="../../../../Labview Toolbox/WT1600 Integrator Query.vi"/>
 </Library>
