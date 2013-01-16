@@ -5,10 +5,10 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Message for Data Logger" Type="Folder">
-		<Item Name="Attribute and Convert Msg.lvclass" Type="LVClass" URL="../../Data Logger Messages/Attribute and Convert Msg/Attribute and Convert Msg.lvclass"/>
-		<Item Name="Write i Ref Msg.lvclass" Type="LVClass" URL="../../Data Logger Messages/Write i Ref Msg/Write i Ref Msg.lvclass"/>
-		<Item Name="Write Signal Ref Msg.lvclass" Type="LVClass" URL="../../Data Logger Messages/Write Signal Ref Msg/Write Signal Ref Msg.lvclass"/>
-		<Item Name="Write Time Out Ref Msg.lvclass" Type="LVClass" URL="../../Data Logger Messages/Write Time Out Ref Msg/Write Time Out Ref Msg.lvclass"/>
+		<Item Name="Attribute and Convert Msg.lvclass" Type="LVClass" URL="../Data Logger Messages/Attribute and Convert Msg/Attribute and Convert Msg.lvclass"/>
+		<Item Name="Write i Ref Msg.lvclass" Type="LVClass" URL="../Data Logger Messages/Write i Ref Msg/Write i Ref Msg.lvclass"/>
+		<Item Name="Write Signal Ref Msg.lvclass" Type="LVClass" URL="../Data Logger Messages/Write Signal Ref Msg/Write Signal Ref Msg.lvclass"/>
+		<Item Name="Write Time Out Ref Msg.lvclass" Type="LVClass" URL="../Data Logger Messages/Write Time Out Ref Msg/Write Time Out Ref Msg.lvclass"/>
 	</Item>
 	<Item Name="Test" Type="Folder">
 		<Item Name="test 2.vi" Type="VI" URL="../Test/test 2.vi"/>
