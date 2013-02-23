@@ -5,7 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Message for Universal Power Meter" Type="Folder">
-		<Item Name="Read Model Msg.lvclass" Type="LVClass" URL="../Universal Power Meter Messages/Read Model Msg/Read Model Msg.lvclass"/>
 		<Item Name="Yokogawa Class Chooser Msg.lvclass" Type="LVClass" URL="../Universal Power Meter Messages/Yokogawa Class Chooser Msg/Yokogawa Class Chooser Msg.lvclass"/>
 	</Item>
 	<Item Name="Test" Type="Folder">
