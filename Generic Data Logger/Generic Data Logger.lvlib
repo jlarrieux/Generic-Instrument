@@ -4,4 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">302022660</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Fluke 2625A (Hydra II).lvlib" Type="Library" URL="../Fluke 2625A (Hydra II)/Fluke 2625A (Hydra II).lvlib"/>
+	<Item Name="Generic Data Logger.lvclass" Type="LVClass" URL="../Generic Data Logger Class/Generic Data Logger.lvclass"/>
+	<Item Name="Test.vi" Type="VI" URL="../Generic Data Logger Class/Test.vi"/>
 </Library>
