@@ -4,7 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">302022660</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Message for Universal Card" Type="Folder"/>
 	<Item Name="Message for Universal Power Meter" Type="Folder">
+		<Item Name="Measure Msg.lvclass" Type="LVClass" URL="../Universal Power Meter Messages/Measure Msg/Measure Msg.lvclass"/>
+		<Item Name="Write Card Array Msg.lvclass" Type="LVClass" URL="../Universal Power Meter Messages/Write Card Array Msg/Write Card Array Msg.lvclass"/>
 		<Item Name="Yokogawa Class Chooser Msg.lvclass" Type="LVClass" URL="../Universal Power Meter Messages/Yokogawa Class Chooser Msg/Yokogawa Class Chooser Msg.lvclass"/>
 	</Item>
 	<Item Name="Test" Type="Folder">

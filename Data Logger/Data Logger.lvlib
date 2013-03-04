@@ -15,4 +15,5 @@
 		<Item Name="Test.vi" Type="VI" URL="../Test/Test.vi"/>
 	</Item>
 	<Item Name="Data Logger.lvclass" Type="LVClass" URL="../Data Logger.lvclass"/>
+	<Item Name="Yokogawa WT1600 Normal Pattern 4.vi" Type="VI" URL="../../../../Labview Learning 2012/wt1600 3 phase/Yokogawa WT1600 Normal Pattern 4.vi"/>
 </Library>

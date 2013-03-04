@@ -13,6 +13,7 @@
 		<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 		<Item Name="Data Logger.lvlib" Type="Library" URL="../Data Logger/Data Logger.lvlib"/>
 		<Item Name="Display Panel.lvlib" Type="Library" URL="../Display Panel/Display Panel.lvlib"/>
+		<Item Name="Generic Data Logger.lvlib" Type="Library" URL="../Generic Data Logger/Generic Data Logger.lvlib"/>
 		<Item Name="Generic Instrument.lvlib" Type="Library" URL="../Generic Instrument.lvlib"/>
 		<Item Name="Generic Load.lvlib" Type="Library" URL="../Generic Load/Generic Load.lvlib"/>
 		<Item Name="Observer Pattern Actor Interface.lvlib" Type="Library" URL="../WT1600 Card/Observer Pattern Actor Template/Observer Pattern Actor Interface.lvlib"/>
@@ -23,7 +24,6 @@
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="chr6320x Initialize With Options.vi" Type="VI" URL="/&lt;instrlib&gt;/chr6320x/chr6320x.llb/chr6320x Initialize With Options.vi"/>
 				<Item Name="chr6320x Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/chr6320x/chr6320x.llb/chr6320x Initialize.vi"/>
-				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Yokogawa WT200 Series/Public/Close.vi"/>
 				<Item Name="YKWT1600 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Close.vi"/>
 				<Item Name="YKWT1600 Config Current.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Config Current.vi"/>
 				<Item Name="YKWT1600 Config Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Config Integration.vi"/>
@@ -36,6 +36,7 @@
 				<Item Name="YKWT1600 Start Stop Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Start Stop Integration.vi"/>
 				<Item Name="YKWT1600 Utility Clean Up Initialize" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt160u.llb/YKWT1600 Utility Clean Up Initialize"/>
 				<Item Name="YKWT1600 Utility Default Instrument Setup" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt160u.llb/YKWT1600 Utility Default Instrument Setup"/>
+				<Item Name="Yokogawa WT200 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Yokogawa WT200 Series/Yokogawa WT200 Series.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -309,11 +310,15 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
+			<Item Name="Config Current Range.vi" Type="VI" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Public/Configure/Config Current Range.vi"/>
+			<Item Name="Config Harmonics.vi" Type="VI" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Public/Configure/Config Harmonics.vi"/>
 			<Item Name="Global 2.vi" Type="VI" URL="../WT1600 Card/Global 2.vi"/>
 			<Item Name="Global VI.vi" Type="VI" URL="../WT1600 Card/Global VI.vi"/>
 			<Item Name="ivi.dll" Type="Document" URL="ivi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Read Harmonics Measure Item.vi" Type="VI" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Public/Data/Read Harmonics Measure Item.vi"/>
+			<Item Name="Yokogawa WT200 Series.lvlib" Type="Library" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Yokogawa WT200 Series.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="WT1600 Generic" Type="EXE">
