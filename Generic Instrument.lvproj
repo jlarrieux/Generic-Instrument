@@ -22,7 +22,17 @@
 		<Item Name="Universal Power Meter.lvlib" Type="Library" URL="../Universal Power Meter/Universal Power Meter.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="chr6320x Initialize With Options.vi" Type="VI" URL="/&lt;instrlib&gt;/chr6320x/chr6320x.llb/chr6320x Initialize With Options.vi"/>
 				<Item Name="chr6320x Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/chr6320x/chr6320x.llb/chr6320x Initialize.vi"/>
+				<Item Name="Configure Function.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Configure/Configure Function.vi"/>
+				<Item Name="Configure Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Configure/Configure Measurement.vi"/>
+				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Error Query.vi"/>
+				<Item Name="Fluke 2625A buffer Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Private/Fluke 2625A buffer Read.vi"/>
+				<Item Name="Fluke 2625A.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Fluke 2625A/Fluke 2625A.lvlib"/>
+				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Reset.vi"/>
+				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Yokogawa WT200 Series/Public/Utility/Reset.vi"/>
+				<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Revision Query.vi"/>
+				<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Self-Test.vi"/>
 				<Item Name="YKWT1600 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Close.vi"/>
 				<Item Name="YKWT1600 Config Current.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Config Current.vi"/>
 				<Item Name="YKWT1600 Config Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Config Integration.vi"/>
@@ -252,11 +262,13 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="GetSetShared.lvlib" Type="Library" URL="/&lt;vilib&gt;/express/express signal manip/GetorSetDDTAttributes/Shared VIs/GetSetShared.lvlib"/>
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
+				<Item Name="IVI Error Message Builder.vi" Type="VI" URL="/&lt;vilib&gt;/errclust.llb/IVI Error Message Builder.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LV70TimeStampToDateRec.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70TimeStampToDateRec.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
@@ -297,6 +309,10 @@
 				<Item Name="usiSequenceRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/usiSequenceRepresentation.ctl"/>
 				<Item Name="usiTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/usiTypeDef.ctl"/>
 				<Item Name="usiValueFlags.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/usiValueFlags.ctl"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="WDT Number of Waveform Samples CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples CDB.vi"/>
 				<Item Name="WDT Number of Waveform Samples DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples DBL.vi"/>
@@ -308,12 +324,15 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
+			<Item Name="Config Current Range.vi" Type="VI" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Public/Configure/Config Current Range.vi"/>
+			<Item Name="Config Harmonics.vi" Type="VI" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Public/Configure/Config Harmonics.vi"/>
 			<Item Name="Global 2.vi" Type="VI" URL="../WT1600 Card/Global 2.vi"/>
 			<Item Name="Global VI.vi" Type="VI" URL="../WT1600 Card/Global VI.vi"/>
+			<Item Name="ivi.dll" Type="Document" URL="ivi.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Measure Msg.lvclass" Type="LVClass" URL="../Universal Power Meter/Universal Power Meter Messages/Measure Msg/Measure Msg.lvclass"/>
 			<Item Name="Read Harmonics Measure Item.vi" Type="VI" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Public/Data/Read Harmonics Measure Item.vi"/>
-			<Item Name="Read Power Meter Visa.vi" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Attributes VI/Read Power Meter Visa.vi"/>
-			<Item Name="Write Data Array Ref.vi" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Attributes VI/Write Data Array Ref.vi"/>
-			<Item Name="Write New Card Ref.vi" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Attributes VI/Write New Card Ref.vi"/>
 			<Item Name="Yokogawa WT200 Series.lvlib" Type="Library" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Yokogawa WT200 Series.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">

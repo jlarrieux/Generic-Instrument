@@ -4,7 +4,14 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">302022660</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Message for Generic Data Logger" Type="Folder">
+		<Item Name="Measure Msg.lvclass" Type="LVClass" URL="../Generic Data Logger Messages/Measure Msg/Measure Msg.lvclass"/>
+	</Item>
+	<Item Name="Message for Generic Data Logger Card" Type="Folder">
+		<Item Name="Write Array of Channel Control Msg.lvclass" Type="LVClass" URL="../Generic Data Logger Card Messages/Write Array of Channel Control Msg/Write Array of Channel Control Msg.lvclass"/>
+	</Item>
 	<Item Name="Fluke 2625A (Hydra II).lvlib" Type="Library" URL="../Fluke 2625A (Hydra II)/Fluke 2625A (Hydra II).lvlib"/>
+	<Item Name="Generic Data Logger Card.lvclass" Type="LVClass" URL="../Generic Data Logger Card Class/Generic Data Logger Card.lvclass"/>
 	<Item Name="Generic Data Logger.lvclass" Type="LVClass" URL="../Generic Data Logger Class/Generic Data Logger.lvclass"/>
 	<Item Name="Test.vi" Type="VI" URL="../Generic Data Logger Class/Test.vi"/>
 </Library>

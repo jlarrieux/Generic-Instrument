@@ -4,18 +4,22 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">302022660</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Message for Power Meter Display" Type="Folder">
+	<Item Name="Abstract Display Message" Type="Folder">
 		<Item Name="Write Blink Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write Blink Msg/Write Blink Msg.lvclass"/>
 		<Item Name="Write Caption Ref Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write Caption Ref Msg/Write Caption Ref Msg.lvclass"/>
 		<Item Name="Write Card# Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write Card# Msg/Write Card# Msg.lvclass"/>
+		<Item Name="Write time digit Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/Write time digit Msg/Write time digit Msg.lvclass"/>
+	</Item>
+	<Item Name="Message for Power Meter Display" Type="Folder">
 		<Item Name="Write Curr. Ref Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write Curr. Ref Msg/Write Curr. Ref Msg.lvclass"/>
 		<Item Name="Write Freq. Ref Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write Freq. Ref Msg/Write Freq. Ref Msg.lvclass"/>
 		<Item Name="Write Pow. Ref  Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write Pow. Ref  Msg/Write Pow. Ref  Msg.lvclass"/>
-		<Item Name="Write time digit Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/Write time digit Msg/Write time digit Msg.lvclass"/>
 		<Item Name="Write Voltage Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write Voltage Msg/Write Voltage Msg.lvclass"/>
 		<Item Name="Write W-Hrs. Ref  Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write W-Hrs. Ref  Msg/Write W-Hrs. Ref  Msg.lvclass"/>
 	</Item>
 	<Item Name="Abstract Display.lvclass" Type="LVClass" URL="../Abstract Display/Abstract Display.lvclass"/>
 	<Item Name="Blinking Boolean.vi" Type="VI" URL="../../../Labview Toolbox/Blinking Boolean.vi"/>
+	<Item Name="Data Logger Display.lvclass" Type="LVClass" URL="../Data Logger Display/Data Logger Display.lvclass"/>
 	<Item Name="Power Meter Display.lvclass" Type="LVClass" URL="../Power Meter Display/Power Meter Display.lvclass"/>
+	<Item Name="Universal Display.lvclass" Type="LVClass" URL="../Universal Display/Universal Display.lvclass"/>
 </Library>

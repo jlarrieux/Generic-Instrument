@@ -6,5 +6,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">302022660</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Message for Fluke 2625A" Type="Folder">
+		<Item Name="Start Stop Scan Msg.lvclass" Type="LVClass" URL="../../Fluke 2625A (Hydra II) Messages/Start Stop Scan Msg/Start Stop Scan Msg.lvclass"/>
+	</Item>
 	<Item Name="Fluke 2625A (Hydra II).lvclass" Type="LVClass" URL="../Fluke 2625A (Hydra II).lvclass"/>
 </Library>
