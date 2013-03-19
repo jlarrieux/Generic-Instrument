@@ -5,9 +5,11 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Abstract Display Message" Type="Folder">
+		<Item Name="State Right value from Ref Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/State Right value from Ref Msg/State Right value from Ref Msg.lvclass"/>
 		<Item Name="Write Blink Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write Blink Msg/Write Blink Msg.lvclass"/>
 		<Item Name="Write Caption Ref Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write Caption Ref Msg/Write Caption Ref Msg.lvclass"/>
 		<Item Name="Write Card# Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write Card# Msg/Write Card# Msg.lvclass"/>
+		<Item Name="Write State Ref Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/Write State Ref Msg/Write State Ref Msg.lvclass"/>
 		<Item Name="Write time digit Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/Write time digit Msg/Write time digit Msg.lvclass"/>
 	</Item>
 	<Item Name="Message for Power Meter Display" Type="Folder">
