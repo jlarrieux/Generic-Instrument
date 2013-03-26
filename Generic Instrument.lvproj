@@ -16,6 +16,7 @@
 		<Item Name="Generic Data Logger.lvlib" Type="Library" URL="../Generic Data Logger/Generic Data Logger.lvlib"/>
 		<Item Name="Generic Instrument.lvlib" Type="Library" URL="../Generic Instrument.lvlib"/>
 		<Item Name="Generic Load.lvlib" Type="Library" URL="../Generic Load/Generic Load.lvlib"/>
+		<Item Name="Generic Power Supply.lvlib" Type="Library" URL="../Generic Power Supply/Generic Power Supply.lvlib"/>
 		<Item Name="Observer Pattern Actor Interface.lvlib" Type="Library" URL="../WT1600 Card/Observer Pattern Actor Template/Observer Pattern Actor Interface.lvlib"/>
 		<Item Name="PathFinder Type def.ctl" Type="VI" URL="../Data Logger/PathFinder Type def.ctl"/>
 		<Item Name="Sting Contains.vi" Type="VI" URL="../../Labview Toolbox/Sting Contains.vi"/>
@@ -33,6 +34,7 @@
 				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Yokogawa WT200 Series/Public/Utility/Reset.vi"/>
 				<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Revision Query.vi"/>
 				<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Self-Test.vi"/>
+				<Item Name="Xantrex XFR XHR XPD Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Xantrex XFR XHR XPD Series/Xantrex XFR XHR XPD Series.lvlib"/>
 				<Item Name="YKWT1600 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Close.vi"/>
 				<Item Name="YKWT1600 Config Current.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Config Current.vi"/>
 				<Item Name="YKWT1600 Config Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Config Integration.vi"/>
