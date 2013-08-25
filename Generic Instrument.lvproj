@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="12008004">
+<Project Type="Project" LVVersion="13008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -23,6 +23,9 @@
 		<Item Name="Universal Power Meter.lvlib" Type="Library" URL="../Universal Power Meter/Universal Power Meter.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="_YKWT500 Query Number of List Order.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Query Number of List Order.vi"/>
+				<Item Name="_YKWT500 Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Query.vi"/>
+				<Item Name="_YKWT500 Write.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Write.vi"/>
 				<Item Name="chr6320x Initialize With Options.vi" Type="VI" URL="/&lt;instrlib&gt;/chr6320x/chr6320x.llb/chr6320x Initialize With Options.vi"/>
 				<Item Name="chr6320x Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/chr6320x/chr6320x.llb/chr6320x Initialize.vi"/>
 				<Item Name="Configure Function.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Configure/Configure Function.vi"/>
@@ -34,7 +37,30 @@
 				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Yokogawa WT200 Series/Public/Utility/Reset.vi"/>
 				<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Revision Query.vi"/>
 				<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Self-Test.vi"/>
-				<Item Name="Xantrex XFR XHR XPD Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Xantrex XFR XHR XPD Series/Xantrex XFR XHR XPD Series.lvlib"/>
+				<Item Name="YKWT500 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Close.vi"/>
+				<Item Name="YKWT500 Configure Current.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Current.vi"/>
+				<Item Name="YKWT500 Configure Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Integration.vi"/>
+				<Item Name="YKWT500 Configure Numeric Item (Delete).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item (Delete).vi"/>
+				<Item Name="YKWT500 Configure Numeric Item (Preset).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item (Preset).vi"/>
+				<Item Name="YKWT500 Configure Numeric Item (Set).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item (Set).vi"/>
+				<Item Name="YKWT500 Configure Numeric Item.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item.vi"/>
+				<Item Name="YKWT500 Configure Numeric List (Delete).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List (Delete).vi"/>
+				<Item Name="YKWT500 Configure Numeric List (Preset).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List (Preset).vi"/>
+				<Item Name="YKWT500 Configure Numeric List (Set).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List (Set).vi"/>
+				<Item Name="YKWT500 Configure Numeric List.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List.vi"/>
+				<Item Name="YKWT500 Configure Voltage.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Voltage.vi"/>
+				<Item Name="YKWT500 Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Error Query.vi"/>
+				<Item Name="YKWT500 Fetch Numeric (List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Fetch Numeric (List).vi"/>
+				<Item Name="YKWT500 Fetch Numeric (Normal).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Fetch Numeric (Normal).vi"/>
+				<Item Name="YKWT500 Initiate.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Initiate.vi"/>
+				<Item Name="YKWT500 Query Condition Status.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Query Condition Status.vi"/>
+				<Item Name="YKWT500 Read Numeric (List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (List).vi"/>
+				<Item Name="YKWT500 Read Numeric (Normal).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (Normal).vi"/>
+				<Item Name="YKWT500 Read Numeric (Preset List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (Preset List).vi"/>
+				<Item Name="YKWT500 Read Numeric (Preset Normal).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (Preset Normal).vi"/>
+				<Item Name="YKWT500 Read Numeric.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric.vi"/>
+				<Item Name="YKWT500 Start Stop Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Start Stop Integration.vi"/>
+				<Item Name="YKWT500 Wait for Acquisition Complete.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Wait for Acquisition Complete.vi"/>
 				<Item Name="YKWT1600 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Close.vi"/>
 				<Item Name="YKWT1600 Config Current.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Config Current.vi"/>
 				<Item Name="YKWT1600 Config Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Config Integration.vi"/>
@@ -271,6 +297,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
@@ -333,15 +360,56 @@
 			<Item Name="ivi.dll" Type="Document" URL="ivi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Measure Msg.lvclass" Type="LVClass" URL="../Universal Power Meter/Universal Power Meter Messages/Measure Msg/Measure Msg.lvclass"/>
 			<Item Name="Read Harmonics Measure Item.vi" Type="VI" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Public/Data/Read Harmonics Measure Item.vi"/>
 			<Item Name="Yokogawa WT200 Series.lvlib" Type="Library" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Yokogawa WT200 Series.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Universal Power Meter (Alpha)" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{49FF09AC-C2CD-4A98-8555-FFCACFA8B06F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{C41715BB-1496-4576-A5D2-459F1AD44D40}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C59DF77F-9581-4167-AF3D-5C6E1A0E2B37}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Universal Power Meter (Alpha)</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{037E2A46-BE2B-4E90-8928-3F9A0F2A6586}</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)/Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{81B9C9B6-E8E8-4F72-AEFB-920210A62EB1}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Universal Power Meter.lvlib/Test/Universal Power Meter.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">HP</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Universal Power Meter (Alpha)</Property>
+				<Property Name="TgtF_internalName" Type="Str">Universal Power Meter (Alpha)</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 HP</Property>
+				<Property Name="TgtF_productName" Type="Str">Universal Power Meter (Alpha)</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{C67915EB-5EF7-4C4B-941E-697BE77E288E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+			</Item>
 			<Item Name="WT1600 Generic" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{ED463911-577A-4A4B-9564-3257FE02BF50}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{4D2CD52B-C73E-434A-AB18-E03E0C2DB435}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{4CDC5039-E942-4164-A5B2-9A37A0879786}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">WT1600 Generic</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -351,6 +419,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{285E90E9-6051-44C5-86FA-AFC42ED6F54C}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">WT1600 Generic Temp.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/WT1600 Generic/WT1600 Generic Temp.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -365,11 +435,8 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">HP</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">WT1600 Generic</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">4</Property>
-				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">WT1600 Generic</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 HP</Property>
 				<Property Name="TgtF_productName" Type="Str">WT1600 Generic</Property>
