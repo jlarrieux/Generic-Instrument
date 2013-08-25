@@ -8,6 +8,7 @@
 		<Item Name="Write Data To Stop Bit Msg.lvclass" Type="LVClass" URL="../Generic Instrument/Generic Card Messages/Write Data To Stop Bit Msg/Write Data To Stop Bit Msg.lvclass"/>
 		<Item Name="Write Time  Msg.lvclass" Type="LVClass" URL="../Generic Instrument/Generic Card Messages/Write Time  Msg/Write Time  Msg.lvclass"/>
 		<Item Name="Write Warm-Up Time Msg.lvclass" Type="LVClass" URL="../Generic Instrument/Generic Card Messages/Write Warm-Up Time Msg/Write Warm-Up Time Msg.lvclass"/>
+		<Item Name="Write Warming Done Msg.lvclass" Type="LVClass" URL="../Generic Instrument/Generic Card Messages/Write Warming Done Msg/Write Warming Done Msg.lvclass"/>
 		<Item Name="Write Warming Done Value Msg.lvclass" Type="LVClass" URL="../Generic Instrument/Generic Card Messages/Write Warming Done Value Msg/Write Warming Done Value Msg.lvclass"/>
 	</Item>
 	<Item Name="Message for ALL INSTRUMENTS" Type="Folder">
