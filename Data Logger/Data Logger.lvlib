@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Message for Data Logger" Type="Folder">
 		<Item Name="Attribute and Convert Msg.lvclass" Type="LVClass" URL="../Data Logger Messages/Attribute and Convert Msg/Attribute and Convert Msg.lvclass"/>
+		<Item Name="State write value from reference Msg.lvclass" Type="LVClass" URL="../../Data Logger Messages/State write value from reference Msg/State write value from reference Msg.lvclass"/>
 		<Item Name="Write i Ref Msg.lvclass" Type="LVClass" URL="../Data Logger Messages/Write i Ref Msg/Write i Ref Msg.lvclass"/>
 		<Item Name="Write Logging Interval Msg.lvclass" Type="LVClass" URL="../../Data Logger Messages/Write Logging Interval Msg/Write Logging Interval Msg.lvclass"/>
 		<Item Name="Write Signal Ref Msg.lvclass" Type="LVClass" URL="../Data Logger Messages/Write Signal Ref Msg/Write Signal Ref Msg.lvclass"/>

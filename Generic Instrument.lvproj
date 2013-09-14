@@ -33,7 +33,6 @@
 				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Error Query.vi"/>
 				<Item Name="Fluke 2625A buffer Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Private/Fluke 2625A buffer Read.vi"/>
 				<Item Name="Fluke 2625A.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Fluke 2625A/Fluke 2625A.lvlib"/>
-				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Reset.vi"/>
 				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Yokogawa WT200 Series/Public/Utility/Reset.vi"/>
 				<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Revision Query.vi"/>
 				<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Self-Test.vi"/>
@@ -363,11 +362,78 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Measure Msg.lvclass" Type="LVClass" URL="../Universal Power Meter/Universal Power Meter Messages/Measure Msg/Measure Msg.lvclass"/>
 			<Item Name="Read Harmonics Measure Item.vi" Type="VI" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Public/Data/Read Harmonics Measure Item.vi"/>
 			<Item Name="Yokogawa WT200 Series.lvlib" Type="Library" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Yokogawa WT200 Series.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="My Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Generic Instrument Logger  (Jeannius)</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{00E1B3F3-8E0D-40E3-BEDA-D3B29646BB5F}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{C0446EC0-D69F-44C3-B3AD-E04EA7FAE72B}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Run-Time Engine 2013</Property>
+				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI LabVIEW 2013 Run-Time Engine Non-English Support.</Property>
+				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{DDE96050-C9ED-4EAC-B310-5EA217776FEA}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI System Web Server 13.0</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{EA05DCF9-F239-4387-8904-04D678031F6B}</Property>
+				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI Logos 5.5</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI TDM Streaming 2.4</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW 2013 Web Server</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{A66A5CC8-EEB5-4982-8B92-F591AF36060E}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI LabVIEW 2013 Real-Time NBFifo</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{76E4763E-0DC4-4195-BC50-084193FFA84B}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI Error Reporting 2013</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">10</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{A661D981-0A3B-4081-A5B5-1FAA03CFAF84}</Property>
+				<Property Name="DistPartCount" Type="Int">1</Property>
+				<Property Name="INST_author" Type="Str">HP</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/Generic Instrument/My Installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{00E1B3F3-8E0D-40E3-BEDA-D3B29646BB5F}</Property>
+				<Property Name="INST_productName" Type="Str">Generic Instrument</Property>
+				<Property Name="INST_productVersion" Type="Str">1.1.0</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">13008047</Property>
+				<Property Name="MSI_arpCompany" Type="Str">HP</Property>
+				<Property Name="MSI_arpURL" Type="Str">http://www.hp.com/</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{D4A3B27F-0FA2-4B96-9AE8-D72197AC950B}</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{713A9F32-66C3-48E6-830F-3AE1D24F9C22}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{00E1B3F3-8E0D-40E3-BEDA-D3B29646BB5F}</Property>
+				<Property Name="Source[0].name" Type="Str">Universal Power Meter (Alpha)</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Universal Power Meter (Alpha)</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
 			<Item Name="Universal Power Meter (Alpha)" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{49FF09AC-C2CD-4A98-8555-FFCACFA8B06F}</Property>
@@ -380,29 +446,49 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{037E2A46-BE2B-4E90-8928-3F9A0F2A6586}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)/Application.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Generic Instrument Logger version Alpha-B.exe</Property>
+				<Property Name="Destination[0].libraryName" Type="Str">Generic Instrument Logger version Alpha-B.exe.lvlib</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)/Generic Instrument Logger version Alpha-B.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{81B9C9B6-E8E8-4F72-AEFB-920210A62EB1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{90248C91-61F9-43C0-91E0-BDB655B68425}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Universal Power Meter.lvlib/Test/Universal Power Meter.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Actor Framework.lvlib/Actor.lvclass</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Actor Framework.lvlib/Message Priority Queue.lvclass</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Actor Framework.lvlib/Message Enqueuer.lvclass</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Actor Framework.lvlib/Message Dequeuer.lvclass</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Actor Framework.lvlib/Message Queue.lvclass</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Actor Framework.lvlib</Property>
+				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[7].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">HP</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Universal Power Meter (Alpha)</Property>
 				<Property Name="TgtF_internalName" Type="Str">Universal Power Meter (Alpha)</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 HP</Property>
 				<Property Name="TgtF_productName" Type="Str">Universal Power Meter (Alpha)</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C67915EB-5EF7-4C4B-941E-697BE77E288E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Generic Instrument Logger version Alpha-B.exe</Property>
 			</Item>
 			<Item Name="WT1600 Generic" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
