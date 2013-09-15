@@ -23,9 +23,6 @@
 		<Item Name="Universal Power Meter.lvlib" Type="Library" URL="../Universal Power Meter/Universal Power Meter.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="_YKWT500 Query Number of List Order.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Query Number of List Order.vi"/>
-				<Item Name="_YKWT500 Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Query.vi"/>
-				<Item Name="_YKWT500 Write.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Write.vi"/>
 				<Item Name="chr6320x Initialize With Options.vi" Type="VI" URL="/&lt;instrlib&gt;/chr6320x/chr6320x.llb/chr6320x Initialize With Options.vi"/>
 				<Item Name="chr6320x Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/chr6320x/chr6320x.llb/chr6320x Initialize.vi"/>
 				<Item Name="Config Current.vi" Type="VI" URL="/&lt;instrlib&gt;/Xantrex XFR XHR XPD Series/Public/Configuration/Config Current.vi"/>
@@ -35,35 +32,10 @@
 				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Error Query.vi"/>
 				<Item Name="Fluke 2625A buffer Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Private/Fluke 2625A buffer Read.vi"/>
 				<Item Name="Fluke 2625A.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Fluke 2625A/Fluke 2625A.lvlib"/>
-				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Reset.vi"/>
 				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Yokogawa WT200 Series/Public/Utility/Reset.vi"/>
 				<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Revision Query.vi"/>
 				<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Self-Test.vi"/>
 				<Item Name="Set Output State.vi" Type="VI" URL="/&lt;instrlib&gt;/Xantrex XFR XHR XPD Series/Public/Action-Status/Set Output State.vi"/>
-				<Item Name="YKWT500 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Close.vi"/>
-				<Item Name="YKWT500 Configure Current.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Current.vi"/>
-				<Item Name="YKWT500 Configure Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Integration.vi"/>
-				<Item Name="YKWT500 Configure Numeric Item (Delete).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item (Delete).vi"/>
-				<Item Name="YKWT500 Configure Numeric Item (Preset).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item (Preset).vi"/>
-				<Item Name="YKWT500 Configure Numeric Item (Set).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item (Set).vi"/>
-				<Item Name="YKWT500 Configure Numeric Item.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item.vi"/>
-				<Item Name="YKWT500 Configure Numeric List (Delete).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List (Delete).vi"/>
-				<Item Name="YKWT500 Configure Numeric List (Preset).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List (Preset).vi"/>
-				<Item Name="YKWT500 Configure Numeric List (Set).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List (Set).vi"/>
-				<Item Name="YKWT500 Configure Numeric List.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List.vi"/>
-				<Item Name="YKWT500 Configure Voltage.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Voltage.vi"/>
-				<Item Name="YKWT500 Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Error Query.vi"/>
-				<Item Name="YKWT500 Fetch Numeric (List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Fetch Numeric (List).vi"/>
-				<Item Name="YKWT500 Fetch Numeric (Normal).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Fetch Numeric (Normal).vi"/>
-				<Item Name="YKWT500 Initiate.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Initiate.vi"/>
-				<Item Name="YKWT500 Query Condition Status.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Query Condition Status.vi"/>
-				<Item Name="YKWT500 Read Numeric (List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (List).vi"/>
-				<Item Name="YKWT500 Read Numeric (Normal).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (Normal).vi"/>
-				<Item Name="YKWT500 Read Numeric (Preset List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (Preset List).vi"/>
-				<Item Name="YKWT500 Read Numeric (Preset Normal).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (Preset Normal).vi"/>
-				<Item Name="YKWT500 Read Numeric.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric.vi"/>
-				<Item Name="YKWT500 Start Stop Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Start Stop Integration.vi"/>
-				<Item Name="YKWT500 Wait for Acquisition Complete.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Wait for Acquisition Complete.vi"/>
 				<Item Name="YKWT1600 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Close.vi"/>
 				<Item Name="YKWT1600 Config Current.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Config Current.vi"/>
 				<Item Name="YKWT1600 Config Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Config Integration.vi"/>
@@ -356,10 +328,11 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
-			<Item Name="Config Current Range.vi" Type="VI" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Public/Configure/Config Current Range.vi"/>
-			<Item Name="Config Harmonics.vi" Type="VI" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Public/Configure/Config Harmonics.vi"/>
+			<Item Name="Abstract Display.ctl" Type="VI" URL="../Display Panel/Abstract Display/Abstract Display.lvclass/Abstract Display.ctl"/>
+			<Item Name="Control 1.ctl" Type="VI" URL="../Display Panel/Abstract Display/Control 1.ctl"/>
 			<Item Name="Global 2.vi" Type="VI" URL="../WT1600 Card/Global 2.vi"/>
 			<Item Name="Global VI.vi" Type="VI" URL="../WT1600 Card/Global VI.vi"/>
+			<Item Name="Integration State.ctl" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Integration State.ctl"/>
 			<Item Name="ivi.dll" Type="Document" URL="ivi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -367,8 +340,24 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Measure Msg.lvclass" Type="LVClass" URL="../Universal Power Meter/Universal Power Meter Messages/Measure Msg/Measure Msg.lvclass"/>
-			<Item Name="Read Harmonics Measure Item.vi" Type="VI" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Public/Data/Read Harmonics Measure Item.vi"/>
-			<Item Name="Yokogawa WT200 Series.lvlib" Type="Library" URL="/G/Engineering/Retail/LabV/instr.lib/Yokogawa WT200 Series/Yokogawa WT200 Series.lvlib"/>
+			<Item Name="New Card Set Up.vi" Type="VI" URL="../Universal Power Meter/Universal Card Class/New Card Set Up.vi"/>
+			<Item Name="Read Blink Ref.vi" Type="VI" URL="../Display Panel/Abstract Display/Attributes/Read Blink Ref.vi"/>
+			<Item Name="Read Caption Ref.vi" Type="VI" URL="../Display Panel/Abstract Display/Attributes/Read Caption Ref.vi"/>
+			<Item Name="Read Logging Interval.vi" Type="VI" URL="../Data Logger/Data Member VI/Read Logging Interval.vi"/>
+			<Item Name="Read State Ref.vi" Type="VI" URL="../Display Panel/Abstract Display/Attributes/Read State Ref.vi"/>
+			<Item Name="Send Set Voltage and Current.vi" Type="VI" URL="../Generic Instrument Messages/Set Voltage and Current Msg/Send Set Voltage and Current.vi"/>
+			<Item Name="Send Write File Name.vi" Type="VI" URL="../Display Panel/Abstract Display Messages/Write File Name Msg/Send Write File Name.vi"/>
+			<Item Name="State Right value from Ref.vi" Type="VI" URL="../Display Panel/Abstract Display/State Right value from Ref.vi"/>
+			<Item Name="Write Blinker Ref.vi" Type="VI" URL="../Display Panel/Abstract Display/Attributes/Write Blinker Ref.vi"/>
+			<Item Name="Write card number digit.vi" Type="VI" URL="../Display Panel/Abstract Display/Write card number digit.vi"/>
+			<Item Name="Write Card refnum.vi" Type="VI" URL="../Display Panel/Abstract Display/Attributes/Write Card refnum.vi"/>
+			<Item Name="Write Data Interval Time.vi" Type="VI" URL="../Generic Instrument/Generic Card/Attributes/Write Data Interval Time.vi"/>
+			<Item Name="Write File Name Refnum.vi" Type="VI" URL="../Display Panel/Abstract Display/Attributes/Write File Name Refnum.vi"/>
+			<Item Name="Write Instrument Name.vi" Type="VI" URL="../Display Panel/Abstract Display/Attributes/Write Instrument Name.vi"/>
+			<Item Name="Write State Ref.vi" Type="VI" URL="../Display Panel/Abstract Display/Attributes/Write State Ref.vi"/>
+			<Item Name="Write time digit.vi" Type="VI" URL="../Display Panel/Abstract Display/Write time digit.vi"/>
+			<Item Name="Write Time.vi" Type="VI" URL="../Display Panel/Abstract Display/Write Time.vi"/>
+			<Item Name="Yokogawa WT2X0.lvclass" Type="LVClass" URL="../Universal Power Meter/Yokogawa WT2X0/Yokogawa WT2X0.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Universal Power Meter (Alpha)" Type="EXE">
