@@ -376,7 +376,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{037E2A46-BE2B-4E90-8928-3F9A0F2A6586}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Generic Instrument Logger version Alpha-C.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)/Generic Instrument Logger version Alpha-C.exe</Property>
@@ -385,7 +385,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F5EE5DB1-A1FD-4736-B89D-767E4A531DD3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{096887DB-EDE5-44FD-B320-7D03BAF77B1C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Universal Power Meter.lvlib/Test/Universal Power Meter.vi</Property>
@@ -393,7 +393,6 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">HP</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Universal Power Meter (Alpha)</Property>
 				<Property Name="TgtF_internalName" Type="Str">Universal Power Meter (Alpha)</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 HP</Property>
