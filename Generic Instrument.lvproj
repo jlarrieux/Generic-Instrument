@@ -360,7 +360,6 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Measure Msg.lvclass" Type="LVClass" URL="../Universal Power Meter/Universal Power Meter Messages/Measure Msg/Measure Msg.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Universal Power Meter (Alpha)" Type="EXE">
@@ -376,7 +375,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{037E2A46-BE2B-4E90-8928-3F9A0F2A6586}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Generic Instrument Logger version Alpha-C.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)/Generic Instrument Logger version Alpha-C.exe</Property>

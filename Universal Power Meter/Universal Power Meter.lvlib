@@ -9,6 +9,7 @@
 	</Item>
 	<Item Name="Message for Universal Power Meter" Type="Folder">
 		<Item Name="Integrator Start-Stop Msg.lvclass" Type="LVClass" URL="../Universal Power Meter Messages/Integrator Start-Stop Msg/Integrator Start-Stop Msg.lvclass"/>
+		<Item Name="Measure Msg.lvclass" Type="LVClass" URL="../Universal Power Meter Messages/Measure Msg/Measure Msg.lvclass"/>
 		<Item Name="Write Card Array Msg.lvclass" Type="LVClass" URL="../Universal Power Meter Messages/Write Card Array Msg/Write Card Array Msg.lvclass"/>
 		<Item Name="Yokogawa Class Chooser Msg.lvclass" Type="LVClass" URL="../Universal Power Meter Messages/Yokogawa Class Chooser Msg/Yokogawa Class Chooser Msg.lvclass"/>
 	</Item>
