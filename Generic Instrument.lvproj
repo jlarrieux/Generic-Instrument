@@ -10,9 +10,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Misc. VI" Type="Folder">
+			<Item Name="Find all visa.vi" Type="VI" URL="../Misc VI/Find all visa.vi"/>
+			<Item Name="Universal Power Meter.vi" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Test/Universal Power Meter.vi"/>
+		</Item>
 		<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 		<Item Name="Data Logger.lvlib" Type="Library" URL="../Data Logger/Data Logger.lvlib"/>
 		<Item Name="Display Panel.lvlib" Type="Library" URL="../Display Panel/Display Panel.lvlib"/>
+		<Item Name="fileversion.lvlib" Type="Library" URL="../fileVersionInfo/fileversion.lvlib"/>
 		<Item Name="Generic Data Logger.lvlib" Type="Library" URL="../Generic Data Logger/Generic Data Logger.lvlib"/>
 		<Item Name="Generic Instrument.lvlib" Type="Library" URL="../Generic Instrument.lvlib"/>
 		<Item Name="Generic Load.lvlib" Type="Library" URL="../Generic Load/Generic Load.lvlib"/>
@@ -25,6 +30,7 @@
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="_YKWT500 Query Number of List Order.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Query Number of List Order.vi"/>
 				<Item Name="_YKWT500 Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Query.vi"/>
+				<Item Name="_YKWT500 Utility Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Utility Default Instrument Setup.vi"/>
 				<Item Name="_YKWT500 Write.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Write.vi"/>
 				<Item Name="chr6320x Initialize With Options.vi" Type="VI" URL="/&lt;instrlib&gt;/chr6320x/chr6320x.llb/chr6320x Initialize With Options.vi"/>
 				<Item Name="chr6320x Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/chr6320x/chr6320x.llb/chr6320x Initialize.vi"/>
@@ -51,6 +57,7 @@
 				<Item Name="YKWT500 Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Error Query.vi"/>
 				<Item Name="YKWT500 Fetch Numeric (List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Fetch Numeric (List).vi"/>
 				<Item Name="YKWT500 Fetch Numeric (Normal).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Fetch Numeric (Normal).vi"/>
+				<Item Name="YKWT500 Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Initialize.vi"/>
 				<Item Name="YKWT500 Initiate.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Initiate.vi"/>
 				<Item Name="YKWT500 Query Condition Status.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Query Condition Status.vi"/>
 				<Item Name="YKWT500 Read Numeric (List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (List).vi"/>
@@ -58,6 +65,7 @@
 				<Item Name="YKWT500 Read Numeric (Preset List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (Preset List).vi"/>
 				<Item Name="YKWT500 Read Numeric (Preset Normal).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (Preset Normal).vi"/>
 				<Item Name="YKWT500 Read Numeric.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric.vi"/>
+				<Item Name="YKWT500 Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Reset.vi"/>
 				<Item Name="YKWT500 Start Stop Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Start Stop Integration.vi"/>
 				<Item Name="YKWT500 Wait for Acquisition Complete.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Wait for Acquisition Complete.vi"/>
 				<Item Name="YKWT1600 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Close.vi"/>
@@ -357,11 +365,103 @@
 			<Item Name="ivi.dll" Type="Document" URL="ivi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Universal Power Meter (Alpha" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Generic Instrument</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{2DF37C14-DE01-4802-8DCD-239D4EB9A4CE}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{FE82D7AF-0A22-40E8-B7A5-9D7615296BA6}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI USI 2.0.1</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{D1EDC484-7B17-11D7-83CE-00C0F03EBEBE}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{199E33DE-B255-4B98-ABE9-434F681E6D93}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI-VISA Runtime 5.4</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{C0446EC0-D69F-44C3-B3AD-E04EA7FAE72B}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Run-Time Engine 2013</Property>
+				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI LabVIEW 2013 Run-Time Engine Non-English Support.</Property>
+				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{DDE96050-C9ED-4EAC-B310-5EA217776FEA}</Property>
+				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI System Web Server 13.0</Property>
+				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{EA05DCF9-F239-4387-8904-04D678031F6B}</Property>
+				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI Logos 5.5</Property>
+				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI TDM Streaming 2.4</Property>
+				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI LabVIEW 2013 Web Server</Property>
+				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{A66A5CC8-EEB5-4982-8B92-F591AF36060E}</Property>
+				<Property Name="DistPart[2].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[7].productName" Type="Str">NI LabVIEW 2013 Real-Time NBFifo</Property>
+				<Property Name="DistPart[2].SoftDep[7].upgradeCode" Type="Str">{76E4763E-0DC4-4195-BC50-084193FFA84B}</Property>
+				<Property Name="DistPart[2].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[2].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[9].productName" Type="Str">NI Error Reporting 2013</Property>
+				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[2].SoftDepCount" Type="Int">10</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{A661D981-0A3B-4081-A5B5-1FAA03CFAF84}</Property>
+				<Property Name="DistPartCount" Type="Int">3</Property>
+				<Property Name="INST_author" Type="Str">INTERTEK</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/Generic Instrument/Universal Power Meter (Alpha</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Universal Power Meter (Alpha</Property>
+				<Property Name="INST_defaultDir" Type="Str">{2DF37C14-DE01-4802-8DCD-239D4EB9A4CE}</Property>
+				<Property Name="INST_productName" Type="Str">Generic Instrument</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">13008047</Property>
+				<Property Name="MSI_arpCompany" Type="Str">INTERTEK</Property>
+				<Property Name="MSI_arpContact" Type="Str">Jean-Rodney Larrieux</Property>
+				<Property Name="MSI_arpPhone" Type="Str">847-718-6323</Property>
+				<Property Name="MSI_arpURL" Type="Str">http://www.intertek.com/</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{E6AF0092-FED3-4936-8CB9-6DC43AF3B682}</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{3C4A98A1-394F-40B7-9751-2F24CFBA152A}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{2DF37C14-DE01-4802-8DCD-239D4EB9A4CE}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{2DF37C14-DE01-4802-8DCD-239D4EB9A4CE}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Generic Instrument Logger version Alpha-C.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Generic Instrument Logger version Alpha-C</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Generic Instrument</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{C67915EB-5EF7-4C4B-941E-697BE77E288E}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">Universal Power Meter (Alpha)</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Universal Power Meter (Alpha)</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
 			<Item Name="Universal Power Meter (Alpha)" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{49FF09AC-C2CD-4A98-8555-FFCACFA8B06F}</Property>
@@ -375,19 +475,19 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{037E2A46-BE2B-4E90-8928-3F9A0F2A6586}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Generic Instrument Logger version Alpha-C.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)/Generic Instrument Logger version Alpha-C.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Generic Instrument Logger version Alpha-D.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)/Generic Instrument Logger version Alpha-D.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{096887DB-EDE5-44FD-B320-7D03BAF77B1C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{29B7EC30-85AE-4A1F-8119-CF4C63A32CAF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Universal Power Meter.lvlib/Test/Universal Power Meter.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Misc. VI/Universal Power Meter.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -397,7 +497,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 HP</Property>
 				<Property Name="TgtF_productName" Type="Str">Universal Power Meter (Alpha)</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C67915EB-5EF7-4C4B-941E-697BE77E288E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Generic Instrument Logger version Alpha-C.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Generic Instrument Logger version Alpha-D.exe</Property>
 			</Item>
 			<Item Name="WT1600 Generic" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>

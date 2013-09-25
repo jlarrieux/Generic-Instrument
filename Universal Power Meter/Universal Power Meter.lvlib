@@ -16,7 +16,6 @@
 	<Item Name="Test" Type="Folder">
 		<Item Name="generic query.vi" Type="VI" URL="../Universal Power Meter class/Test/generic query.vi"/>
 		<Item Name="Test 2.vi" Type="VI" URL="../Universal Power Meter class/Test/Test 2.vi"/>
-		<Item Name="Universal Power Meter.vi" Type="VI" URL="../Universal Power Meter class/Test/Universal Power Meter.vi"/>
 	</Item>
 	<Item Name="Universal Card.lvclass" Type="LVClass" URL="../Universal Card Class/Universal Card.lvclass"/>
 	<Item Name="Universal Power Meter.lvclass" Type="LVClass" URL="../Universal Power Meter class/Universal Power Meter.lvclass"/>
