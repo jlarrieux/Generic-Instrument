@@ -6,6 +6,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Message for ALL CARDS" Type="Folder">
 		<Item Name="Write Data To Stop Bit Msg.lvclass" Type="LVClass" URL="../Generic Instrument/Generic Card Messages/Write Data To Stop Bit Msg/Write Data To Stop Bit Msg.lvclass"/>
+		<Item Name="Write State refnum from Value Msg.lvclass" Type="LVClass" URL="../Generic Instrument/Generic Card Messages/Write State refnum from Value Msg/Write State refnum from Value Msg.lvclass"/>
+		<Item Name="Write State Refnum Msg.lvclass" Type="LVClass" URL="../Generic Instrument/Generic Card Messages/Write State Refnum Msg/Write State Refnum Msg.lvclass"/>
 		<Item Name="Write Time  Msg.lvclass" Type="LVClass" URL="../Generic Instrument/Generic Card Messages/Write Time  Msg/Write Time  Msg.lvclass"/>
 		<Item Name="Write Warm-Up Time Msg.lvclass" Type="LVClass" URL="../Generic Instrument/Generic Card Messages/Write Warm-Up Time Msg/Write Warm-Up Time Msg.lvclass"/>
 		<Item Name="Write Warming Done Value Msg.lvclass" Type="LVClass" URL="../Generic Instrument/Generic Card Messages/Write Warming Done Value Msg/Write Warming Done Value Msg.lvclass"/>

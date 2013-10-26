@@ -19,7 +19,7 @@
 	</Item>
 	<Item Name="Universal Card.lvclass" Type="LVClass" URL="../Universal Card Class/Universal Card.lvclass"/>
 	<Item Name="Universal Power Meter.lvclass" Type="LVClass" URL="../Universal Power Meter class/Universal Power Meter.lvclass"/>
-	<Item Name="WT1600.lvlib" Type="Library" URL="../../WT1600 Card/WT1600/WT1600.lvlib"/>
 	<Item Name="Yokogawa WT2X0.lvlib" Type="Library" URL="../Yokogawa WT2X0/Yokogawa WT2X0.lvlib"/>
 	<Item Name="Yokogawa WT500.lvlib" Type="Library" URL="../Yokogawa WT500/Yokogawa WT500.lvlib"/>
+	<Item Name="Yokogawa WT1600.lvlib" Type="Library" URL="../Yokogawa WT1600/Yokogawa WT1600.lvlib"/>
 </Library>

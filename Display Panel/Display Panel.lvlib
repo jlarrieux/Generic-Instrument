@@ -12,6 +12,7 @@
 		<Item Name="Write card number digit Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/Write card number digit Msg/Write card number digit Msg.lvclass"/>
 		<Item Name="Write File Name Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/Write File Name Msg/Write File Name Msg.lvclass"/>
 		<Item Name="Write Instrument Name to Display Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/Write Instrument Name to Display Msg/Write Instrument Name to Display Msg.lvclass"/>
+		<Item Name="Write Logger Address  Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/Write Logger Address  Msg/Write Logger Address  Msg.lvclass"/>
 		<Item Name="Write ready to log boolean Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/Write ready to log boolean Msg/Write ready to log boolean Msg.lvclass"/>
 		<Item Name="Write State Ref Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/Write State Ref Msg/Write State Ref Msg.lvclass"/>
 		<Item Name="Write time digit Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/Write time digit Msg/Write time digit Msg.lvclass"/>

@@ -11,10 +11,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Misc. VI" Type="Folder">
+			<Item Name="Fibonaci Calculator demo.vi" Type="VI" URL="../Misc VI/Fibonaci Calculator demo.vi"/>
 			<Item Name="Find all visa.vi" Type="VI" URL="../Misc VI/Find all visa.vi"/>
+			<Item Name="States of Find all.ctl" Type="VI" URL="../Misc VI/States of Find all.ctl"/>
+			<Item Name="Test.vi" Type="VI" URL="../Misc VI/Test.vi"/>
 			<Item Name="Universal Power Meter.vi" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Test/Universal Power Meter.vi"/>
 		</Item>
-		<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 		<Item Name="Data Logger.lvlib" Type="Library" URL="../Data Logger/Data Logger.lvlib"/>
 		<Item Name="Display Panel.lvlib" Type="Library" URL="../Display Panel/Display Panel.lvlib"/>
 		<Item Name="fileversion.lvlib" Type="Library" URL="../fileVersionInfo/fileversion.lvlib"/>
@@ -22,6 +24,7 @@
 		<Item Name="Generic Instrument.lvlib" Type="Library" URL="../Generic Instrument.lvlib"/>
 		<Item Name="Generic Load.lvlib" Type="Library" URL="../Generic Load/Generic Load.lvlib"/>
 		<Item Name="Generic Power Supply.lvlib" Type="Library" URL="../Generic Power Supply/Generic Power Supply.lvlib"/>
+		<Item Name="Measured Value Header Control.ctl" Type="VI" URL="../Universal Power Meter/Measured Value Header Control.ctl"/>
 		<Item Name="Observer Pattern Actor Interface.lvlib" Type="Library" URL="../WT1600 Card/Observer Pattern Actor Template/Observer Pattern Actor Interface.lvlib"/>
 		<Item Name="PathFinder Type def.ctl" Type="VI" URL="../Data Logger/PathFinder Type def.ctl"/>
 		<Item Name="Sting Contains.vi" Type="VI" URL="../../Labview Toolbox/Sting Contains.vi"/>
@@ -161,6 +164,7 @@
 				<Item Name="_TDM_DATA_MODEL.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/_TDM_DATA_MODEL.vi"/>
 				<Item Name="_WaveformProperties.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/_WaveformProperties.vi"/>
 				<Item Name="_wf_attributes.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/_wf_attributes.ctl"/>
+				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -361,7 +365,6 @@
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
 			<Item Name="Global 2.vi" Type="VI" URL="../WT1600 Card/Global 2.vi"/>
-			<Item Name="Global VI.vi" Type="VI" URL="../WT1600 Card/Global VI.vi"/>
 			<Item Name="ivi.dll" Type="Document" URL="ivi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -475,16 +478,16 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{037E2A46-BE2B-4E90-8928-3F9A0F2A6586}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">43</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Generic Instrument Logger version Alpha-D.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)/Generic Instrument Logger version Alpha-D.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Generic Instrument Logger version Alpha-E.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)/Generic Instrument Logger version Alpha-E.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Universal Power Meter (Alpha)/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{29B7EC30-85AE-4A1F-8119-CF4C63A32CAF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{597BD1C6-5704-496A-93D6-2E03CB446BC7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Misc. VI/Universal Power Meter.vi</Property>
@@ -497,7 +500,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 HP</Property>
 				<Property Name="TgtF_productName" Type="Str">Universal Power Meter (Alpha)</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C67915EB-5EF7-4C4B-941E-697BE77E288E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Generic Instrument Logger version Alpha-D.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Generic Instrument Logger version Alpha-E.exe</Property>
 			</Item>
 			<Item Name="WT1600 Generic" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -526,7 +529,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{E2C1088D-2084-46C5-8BEF-0260FD8102D8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Universal Power Meter.lvlib/WT1600.lvlib/MAIN/WT1600 Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/WT1600.lvlib/MAIN/WT1600 Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
