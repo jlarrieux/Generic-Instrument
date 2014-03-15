@@ -9,5 +9,8 @@
 	<Item Name="Message for Fluke 2625A" Type="Folder">
 		<Item Name="Start Stop Scan Msg.lvclass" Type="LVClass" URL="../../Fluke 2625A (Hydra II) Messages/Start Stop Scan Msg/Start Stop Scan Msg.lvclass"/>
 	</Item>
+	<Item Name="Test" Type="Folder">
+		<Item Name="tEST.vi" Type="VI" URL="../tEST/tEST.vi"/>
+	</Item>
 	<Item Name="Fluke 2625A (Hydra II).lvclass" Type="LVClass" URL="../Fluke 2625A (Hydra II).lvclass"/>
 </Library>

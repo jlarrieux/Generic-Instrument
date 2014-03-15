@@ -1,5 +1,5 @@
 [ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "65,571,65,632"
+ProjectExplorer.ClassicPosition[String] = "39,409,730,911"
 
 [AB_Cache_{4CDC5039-E942-4164-A5B2-9A37A0879786}]
 Cache_Path[Path] Line0001 = "/C/Documents and Settings/jlarrieux/Local Settings"
@@ -10,6 +10,14 @@ Cache_Path[Path] Line0003 = "86}.txt"
 Cache_Path[Path] Line0001 = "/C/Documents and Settings/jlarrieux/Local Settings"
 Cache_Path[Path] Line0002 = "/Temp/AB_Cache_{285E90E9-6051-44C5-86FA-AFC42ED6F5"
 Cache_Path[Path] Line0003 = "4C}.txt"
+
+[AB_Cache_{1966CEF8-8DE9-4730-9525-37A1BCBFC690}]
+Cache_Path[Path] Line0001 = "/C/Users/jlarrieux/AppData/Local/Temp/AB_Cache_{19"
+Cache_Path[Path] Line0002 = "66CEF8-8DE9-4730-9525-37A1BCBFC690}.txt"
+
+[AB_Cache_{DF895D0F-DF40-49BE-9705-A43B143EC03D}]
+Cache_Path[Path] Line0001 = "/C/Users/jlarrieux/AppData/Local/Temp/AB_Cache_{DF"
+Cache_Path[Path] Line0002 = "895D0F-DF40-49BE-9705-A43B143EC03D}.txt"
 
 [AB_Cache_{C59DF77F-9581-4167-AF3D-5C6E1A0E2B37}]
 Cache_Path[Path] Line0001 = "/C/Users/jlarrieux/AppData/Local/Temp/AB_Cache_{C5"

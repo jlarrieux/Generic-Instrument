@@ -14,4 +14,5 @@
 	<Item Name="Generic Data Logger Card.lvclass" Type="LVClass" URL="../Generic Data Logger Card Class/Generic Data Logger Card.lvclass"/>
 	<Item Name="Generic Data Logger.lvclass" Type="LVClass" URL="../Generic Data Logger Class/Generic Data Logger.lvclass"/>
 	<Item Name="Test.vi" Type="VI" URL="../Generic Data Logger Class/Test.vi"/>
+	<Item Name="Untitled 2.vi" Type="VI" URL="../Untitled 2.vi"/>
 </Library>
