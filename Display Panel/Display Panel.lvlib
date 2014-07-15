@@ -17,6 +17,12 @@
 		<Item Name="Write State Ref Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/Write State Ref Msg/Write State Ref Msg.lvclass"/>
 		<Item Name="Write time digit Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/Write time digit Msg/Write time digit Msg.lvclass"/>
 	</Item>
+	<Item Name="Display Panel V3 Message" Type="Folder">
+		<Item Name="Insert into SubPanel Msg.lvclass" Type="LVClass" URL="../Display Panel V3 Messages/Insert into SubPanel Msg/Insert into SubPanel Msg.lvclass"/>
+		<Item Name="Open Front Panel Msg.lvclass" Type="LVClass" URL="../Display Panel V3 Messages/Open Front Panel Msg/Open Front Panel Msg.lvclass"/>
+		<Item Name="Remove From SubPanel Msg.lvclass" Type="LVClass" URL="../Display Panel V3 Messages/Remove From SubPanel Msg/Remove From SubPanel Msg.lvclass"/>
+		<Item Name="Write Card Number From Control Msg.lvclass" Type="LVClass" URL="../Display Panel V3 Messages/Write Card Number From Control Msg/Write Card Number From Control Msg.lvclass"/>
+	</Item>
 	<Item Name="Power Meter Display Message" Type="Folder">
 		<Item Name="Write Curr. Ref Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write Curr. Ref Msg/Write Curr. Ref Msg.lvclass"/>
 		<Item Name="Write Freq. Ref Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write Freq. Ref Msg/Write Freq. Ref Msg.lvclass"/>
@@ -28,9 +34,9 @@
 		<Item Name="Updater Msg.lvclass" Type="LVClass" URL="../Universal Display Messages/Updater Msg/Updater Msg.lvclass"/>
 	</Item>
 	<Item Name="Abstract Display.lvclass" Type="LVClass" URL="../Abstract Display/Abstract Display.lvclass"/>
-	<Item Name="Blinking Boolean.vi" Type="VI" URL="../../../Labview Toolbox/Blinking Boolean.vi"/>
+	<Item Name="Blinking Boolean.vi" Type="VI" URL="../../../Labview-Toolbox/Blinking Boolean.vi"/>
 	<Item Name="Data Logger Display.lvclass" Type="LVClass" URL="../Data Logger Display/Data Logger Display.lvclass"/>
+	<Item Name="Display Panel V3.lvclass" Type="LVClass" URL="../Display Panel V3/Display Panel V3.lvclass"/>
 	<Item Name="Power Meter Display.lvclass" Type="LVClass" URL="../Power Meter Display/Power Meter Display.lvclass"/>
-	<Item Name="round_to_decimal_points.vi" Type="VI" URL="../../../Labview Toolbox/round_to_decimal_points.vi"/>
 	<Item Name="Universal Display.lvclass" Type="LVClass" URL="../Universal Display/Universal Display.lvclass"/>
 </Library>

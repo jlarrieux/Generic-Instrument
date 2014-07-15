@@ -10,9 +10,29 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Controller" Type="Folder">
+			<Item Name="Controller.vi" Type="VI" URL="../Controller/Controller.vi"/>
+		</Item>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Instrument ID Object.ctl" Type="VI" URL="../Controls/Instrument ID Object.ctl"/>
+			<Item Name="Integration State.ctl" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Integration State.ctl"/>
+			<Item Name="Manufacturer List.ctl" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Identification/Manufacturer List.ctl"/>
+			<Item Name="Master Control.ctl" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Master Control.ctl"/>
+			<Item Name="Measured Value Header Control.ctl" Type="VI" URL="../Universal Power Meter/Measured Value Header Control.ctl"/>
+			<Item Name="Measurement String Tags.ctl" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Measurement String Tags.ctl"/>
+			<Item Name="Models.ctl" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Models.ctl"/>
+			<Item Name="Numeric Indicator.ctl" Type="VI" URL="../Controls/Numeric Indicator.ctl"/>
+			<Item Name="PathFinder Type def.ctl" Type="VI" URL="../Data Logger/PathFinder Type def.ctl"/>
+			<Item Name="State Control.ctl" Type="VI" URL="../Generic Power Supply/Abstract Power Supply/State Control.ctl"/>
+			<Item Name="Type.ctl" Type="VI" URL="../Generic Power Supply/Abstract Power Supply/Type.ctl"/>
+			<Item Name="Unit Measurement.ctl" Type="VI" URL="../Generic Data Acquisition/Fluke Hydra/Unit Measurement.ctl"/>
+		</Item>
+		<Item Name="Display Panel VI" Type="Folder"/>
 		<Item Name="Misc. VI" Type="Folder">
 			<Item Name="Fibonaci Calculator demo.vi" Type="VI" URL="../Misc VI/Fibonaci Calculator demo.vi"/>
 			<Item Name="Find all visa.vi" Type="VI" URL="../Misc VI/Find all visa.vi"/>
+			<Item Name="MAIN.vi" Type="VI" URL="../Misc VI/MAIN.vi"/>
+			<Item Name="Record Data from Tektronix PA1000.vi" Type="VI" URL="../Misc VI/Record Data from Tektronix PA1000.vi"/>
 			<Item Name="States of Find all.ctl" Type="VI" URL="../Misc VI/States of Find all.ctl"/>
 			<Item Name="Test.vi" Type="VI" URL="../Misc VI/Test.vi"/>
 			<Item Name="Universal Power Meter.vi" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Test/Universal Power Meter.vi"/>
@@ -22,17 +42,19 @@
 			<Item Name="client.wyc" Type="Document" URL="../WyBuil Updater/wyUpdate/client.wyc"/>
 			<Item Name="wyUpdate.exe" Type="Document" URL="../WyBuil Updater/wyUpdate/wyUpdate.exe"/>
 		</Item>
+		<Item Name="Abstract Sensor.lvlib" Type="Library" URL="../Abstract Sensor/Abstract Sensor.lvlib"/>
 		<Item Name="Data Logger.lvlib" Type="Library" URL="../Data Logger/Data Logger.lvlib"/>
+		<Item Name="Display Panel Non-Actor Class.lvlib" Type="Library" URL="../Display panel Non-Actor Class/Display Panel Non-Actor Class.lvlib"/>
 		<Item Name="Display Panel.lvlib" Type="Library" URL="../Display Panel/Display Panel.lvlib"/>
 		<Item Name="fileversion.lvlib" Type="Library" URL="../fileVersionInfo/fileversion.lvlib"/>
-		<Item Name="Generic Data Logger.lvlib" Type="Library" URL="../Generic Data Logger/Generic Data Logger.lvlib"/>
+		<Item Name="Generic Data Acquisition.lvlib" Type="Library" URL="../Generic Data Acquisition/Generic Data Acquisition.lvlib"/>
 		<Item Name="Generic Instrument.lvlib" Type="Library" URL="../Generic Instrument.lvlib"/>
 		<Item Name="Generic Load.lvlib" Type="Library" URL="../Generic Load/Generic Load.lvlib"/>
 		<Item Name="Generic Power Supply.lvlib" Type="Library" URL="../Generic Power Supply/Generic Power Supply.lvlib"/>
-		<Item Name="Measured Value Header Control.ctl" Type="VI" URL="../Universal Power Meter/Measured Value Header Control.ctl"/>
 		<Item Name="Observer Pattern Actor Interface.lvlib" Type="Library" URL="../WT1600 Card/Observer Pattern Actor Template/Observer Pattern Actor Interface.lvlib"/>
-		<Item Name="PathFinder Type def.ctl" Type="VI" URL="../Data Logger/PathFinder Type def.ctl"/>
-		<Item Name="Sting Contains.vi" Type="VI" URL="../../Labview Toolbox/Sting Contains.vi"/>
+		<Item Name="SetUp VIs.lvlib" Type="Library" URL="../SetUp VIs/SetUp VIs.lvlib"/>
+		<Item Name="Sting Contains.vi" Type="VI" URL="../../Labview-Toolbox/Sting Contains.vi"/>
+		<Item Name="test scratch.vi" Type="VI" URL="../Display Panel/Display Panel V3/Test/test scratch.vi"/>
 		<Item Name="Universal Power Meter.lvlib" Type="Library" URL="../Universal Power Meter/Universal Power Meter.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -44,12 +66,10 @@
 				<Item Name="chr6320x Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/chr6320x/chr6320x.llb/chr6320x Initialize.vi"/>
 				<Item Name="Configure Function.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Configure/Configure Function.vi"/>
 				<Item Name="Configure Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Configure/Configure Measurement.vi"/>
-				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Error Query.vi"/>
 				<Item Name="Fluke 2625A buffer Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Private/Fluke 2625A buffer Read.vi"/>
 				<Item Name="Fluke 2625A.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Fluke 2625A/Fluke 2625A.lvlib"/>
 				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Yokogawa WT200 Series/Public/Utility/Reset.vi"/>
-				<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Revision Query.vi"/>
-				<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Utility/Self-Test.vi"/>
+				<Item Name="Tektronix PA1000.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix PA1000/Tektronix PA1000.lvlib"/>
 				<Item Name="YKWT500 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Close.vi"/>
 				<Item Name="YKWT500 Configure Current.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Current.vi"/>
 				<Item Name="YKWT500 Configure Display Numeric Format.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Display Numeric Format.vi"/>
@@ -317,7 +337,6 @@
 				<Item Name="LV70TimeStampToDateRec.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70TimeStampToDateRec.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -386,6 +405,7 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Reentrant Display Caller.vi" Type="VI" URL="../Display Panel VI version/Reentrant Display Caller.vi"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
