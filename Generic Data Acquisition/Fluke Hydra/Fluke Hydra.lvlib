@@ -6,5 +6,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Message for Generic Data Acquisition" Type="Folder">
+		<Item Name="Measure Msg.lvclass" Type="LVClass" URL="../../../Generic Data Acquisition Messages/Measure Msg/Measure Msg.lvclass"/>
+	</Item>
 	<Item Name="Fluke Hydra 2625A.lvclass" Type="LVClass" URL="../Fluke Hydra 2625A.lvclass"/>
 </Library>

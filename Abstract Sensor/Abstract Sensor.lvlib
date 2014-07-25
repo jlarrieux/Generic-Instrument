@@ -4,5 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Message for Abstract Sensor" Type="Folder">
+		<Item Name="Measure Msg.lvclass" Type="LVClass" URL="../../Abstract Sensor Messages/Measure Msg/Measure Msg.lvclass"/>
+	</Item>
 	<Item Name="Abstract Sensor.lvclass" Type="LVClass" URL="../Abstract Sensor.lvclass"/>
 </Library>

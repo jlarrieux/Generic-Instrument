@@ -18,10 +18,13 @@
 		<Item Name="Write time digit Msg.lvclass" Type="LVClass" URL="../Abstract Display Messages/Write time digit Msg/Write time digit Msg.lvclass"/>
 	</Item>
 	<Item Name="Display Panel V3 Message" Type="Folder">
+		<Item Name="Get Update Measurement Msg.lvclass" Type="LVClass" URL="../Display Panel V3 Messages/Get Update Measurement Msg/Get Update Measurement Msg.lvclass"/>
 		<Item Name="Insert into SubPanel Msg.lvclass" Type="LVClass" URL="../Display Panel V3 Messages/Insert into SubPanel Msg/Insert into SubPanel Msg.lvclass"/>
 		<Item Name="Open Front Panel Msg.lvclass" Type="LVClass" URL="../Display Panel V3 Messages/Open Front Panel Msg/Open Front Panel Msg.lvclass"/>
 		<Item Name="Remove From SubPanel Msg.lvclass" Type="LVClass" URL="../Display Panel V3 Messages/Remove From SubPanel Msg/Remove From SubPanel Msg.lvclass"/>
 		<Item Name="Write Card Number From Control Msg.lvclass" Type="LVClass" URL="../Display Panel V3 Messages/Write Card Number From Control Msg/Write Card Number From Control Msg.lvclass"/>
+		<Item Name="Write signal from control Msg.lvclass" Type="LVClass" URL="../Display Panel V3 Messages/Write signal from control Msg/Write signal from control Msg.lvclass"/>
+		<Item Name="Write String from Control Msg.lvclass" Type="LVClass" URL="../Display Panel V3 Messages/Write String from Control Msg/Write String from Control Msg.lvclass"/>
 	</Item>
 	<Item Name="Power Meter Display Message" Type="Folder">
 		<Item Name="Write Curr. Ref Msg.lvclass" Type="LVClass" URL="../Power Meter Display Messages/Write Curr. Ref Msg/Write Curr. Ref Msg.lvclass"/>

@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Controller" Type="Folder">
 			<Item Name="Controller.vi" Type="VI" URL="../Controller/Controller.vi"/>
+			<Item Name="Generic Prompt.vi" Type="VI" URL="../Controller/Generic Prompt.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Instrument ID Object.ctl" Type="VI" URL="../Controls/Instrument ID Object.ctl"/>
@@ -44,13 +45,14 @@
 		</Item>
 		<Item Name="Abstract Sensor.lvlib" Type="Library" URL="../Abstract Sensor/Abstract Sensor.lvlib"/>
 		<Item Name="Data Logger.lvlib" Type="Library" URL="../Data Logger/Data Logger.lvlib"/>
-		<Item Name="Display Panel Non-Actor Class.lvlib" Type="Library" URL="../Display panel Non-Actor Class/Display Panel Non-Actor Class.lvlib"/>
 		<Item Name="Display Panel.lvlib" Type="Library" URL="../Display Panel/Display Panel.lvlib"/>
 		<Item Name="fileversion.lvlib" Type="Library" URL="../fileVersionInfo/fileversion.lvlib"/>
 		<Item Name="Generic Data Acquisition.lvlib" Type="Library" URL="../Generic Data Acquisition/Generic Data Acquisition.lvlib"/>
 		<Item Name="Generic Instrument.lvlib" Type="Library" URL="../Generic Instrument.lvlib"/>
 		<Item Name="Generic Load.lvlib" Type="Library" URL="../Generic Load/Generic Load.lvlib"/>
+		<Item Name="Generic Power Analyzer.lvlib" Type="Library" URL="../Generic Power Analyzer/Generic Power Analyzer.lvlib"/>
 		<Item Name="Generic Power Supply.lvlib" Type="Library" URL="../Generic Power Supply/Generic Power Supply.lvlib"/>
+		<Item Name="Numeric Time.ctl" Type="VI" URL="../Controls/Numeric Time.ctl"/>
 		<Item Name="Observer Pattern Actor Interface.lvlib" Type="Library" URL="../WT1600 Card/Observer Pattern Actor Template/Observer Pattern Actor Interface.lvlib"/>
 		<Item Name="SetUp VIs.lvlib" Type="Library" URL="../SetUp VIs/SetUp VIs.lvlib"/>
 		<Item Name="Sting Contains.vi" Type="VI" URL="../../Labview-Toolbox/Sting Contains.vi"/>
@@ -68,7 +70,6 @@
 				<Item Name="Configure Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Configure/Configure Measurement.vi"/>
 				<Item Name="Fluke 2625A buffer Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Private/Fluke 2625A buffer Read.vi"/>
 				<Item Name="Fluke 2625A.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Fluke 2625A/Fluke 2625A.lvlib"/>
-				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Yokogawa WT200 Series/Public/Utility/Reset.vi"/>
 				<Item Name="Tektronix PA1000.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix PA1000/Tektronix PA1000.lvlib"/>
 				<Item Name="YKWT500 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Close.vi"/>
 				<Item Name="YKWT500 Configure Current.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Current.vi"/>
@@ -324,6 +325,7 @@
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get Property Type.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/Get Property Type.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -337,7 +339,9 @@
 				<Item Name="LV70TimeStampToDateRec.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70TimeStampToDateRec.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
+				<Item Name="Monitored Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/MGI/Monitored Actor/Monitored Actor.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
@@ -405,7 +409,6 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Reentrant Display Caller.vi" Type="VI" URL="../Display Panel VI version/Reentrant Display Caller.vi"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

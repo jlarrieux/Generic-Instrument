@@ -14,6 +14,7 @@
 	</Item>
 	<Item Name="Message for ALL INSTRUMENTS" Type="Folder">
 		<Item Name="Log Starter Msg.lvclass" Type="LVClass" URL="../Generic Instrument Messages/Log Starter Msg/Log Starter Msg.lvclass"/>
+		<Item Name="Send Stop Event Msg.lvclass" Type="LVClass" URL="../Generic Instrument Messages/Send Stop Event Msg/Send Stop Event Msg.lvclass"/>
 		<Item Name="Set Voltage and Current Msg.lvclass" Type="LVClass" URL="../Generic Instrument Messages/Set Voltage and Current Msg/Set Voltage and Current Msg.lvclass"/>
 	</Item>
 	<Item Name="Generic Card.lvclass" Type="LVClass" URL="../Generic Instrument/Generic Card/Generic Card.lvclass"/>
