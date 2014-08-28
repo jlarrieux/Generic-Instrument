@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="14008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -36,6 +36,7 @@
 			<Item Name="Record Data from Tektronix PA1000.vi" Type="VI" URL="../Misc VI/Record Data from Tektronix PA1000.vi"/>
 			<Item Name="States of Find all.ctl" Type="VI" URL="../Misc VI/States of Find all.ctl"/>
 			<Item Name="Test.vi" Type="VI" URL="../Misc VI/Test.vi"/>
+			<Item Name="Text File Reader Test.vi" Type="VI" URL="../Misc VI/Text File Reader Test.vi"/>
 			<Item Name="Universal Power Meter.vi" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Test/Universal Power Meter.vi"/>
 			<Item Name="Updater.vi" Type="VI" URL="../Misc VI/Updater.vi"/>
 		</Item>
@@ -116,15 +117,31 @@
 				<Item Name="Yokogawa WT200 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Yokogawa WT200 Series/Yokogawa WT200 Series.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
+				<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Format Variant Into String__ogtk.vi"/>
+				<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
 				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
 				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
+				<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
+				<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
 				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
 				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
+				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
+				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
+				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
+				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
+				<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
+				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
+				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
+				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
@@ -323,9 +340,9 @@
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get Property Type.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/Get Property Type.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -339,9 +356,8 @@
 				<Item Name="LV70TimeStampToDateRec.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70TimeStampToDateRec.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
-				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
-				<Item Name="Monitored Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/MGI/Monitored Actor/Monitored Actor.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
@@ -455,141 +471,6 @@
 				<Property Name="TgtF_productName" Type="Str">Average Temp with Fluke 2014</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{40A272FB-2132-4DC0-B2D7-C68BF7C23976}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Average Temp with Fluke 2014.exe</Property>
-			</Item>
-			<Item Name="Instertek Testing Suite Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">Intertek Testing Suite</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{724DF54D-F7BA-4F6B-917E-0531ED22A8B8}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">1</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{FE82D7AF-0A22-40E8-B7A5-9D7615296BA6}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI USI 2.0.1</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{D1EDC484-7B17-11D7-83CE-00C0F03EBEBE}</Property>
-				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{766303A5-3C5D-440F-9577-3DE160F84F6F}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI-488.2 3.1.2</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{199E33DE-B255-4B98-ABE9-434F681E6D93}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 5.4</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{CD4CAB41-CAB7-436F-8D66-A83B95F2F3E6}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Run-Time Engine 2013 f2</Property>
-				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI LabVIEW 2013 Run-Time Engine Non-English Support.</Property>
-				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{DDE96050-C9ED-4EAC-B310-5EA217776FEA}</Property>
-				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">NI System Web Server 13.0</Property>
-				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
-				<Property Name="DistPart[3].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
-				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{EA05DCF9-F239-4387-8904-04D678031F6B}</Property>
-				<Property Name="DistPart[3].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI Logos 5.5</Property>
-				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[3].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI TDM Streaming 2.4</Property>
-				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">NI LabVIEW 2013 Web Server</Property>
-				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{A66A5CC8-EEB5-4982-8B92-F591AF36060E}</Property>
-				<Property Name="DistPart[3].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">NI LabVIEW 2013 Real-Time NBFifo</Property>
-				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{76E4763E-0DC4-4195-BC50-084193FFA84B}</Property>
-				<Property Name="DistPart[3].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
-				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
-				<Property Name="DistPart[3].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">NI Error Reporting 2013</Property>
-				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[3].SoftDepCount" Type="Int">10</Property>
-				<Property Name="DistPart[3].upgradeCode" Type="Str">{A661D981-0A3B-4081-A5B5-1FAA03CFAF84}</Property>
-				<Property Name="DistPartCount" Type="Int">4</Property>
-				<Property Name="INST_author" Type="Str">INTERTEK</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/Intertek Testing Suite/Instertek Testing Suite Installer</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Instertek Testing Suite Installer</Property>
-				<Property Name="INST_defaultDir" Type="Str">{724DF54D-F7BA-4F6B-917E-0531ED22A8B8}</Property>
-				<Property Name="INST_productName" Type="Str">Intertek Testing Suite</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.7</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">13008051</Property>
-				<Property Name="MSI_arpCompany" Type="Str">INTERTEK</Property>
-				<Property Name="MSI_arpContact" Type="Str">Jean-Rodney Larrieux, jean-rodney.larrieux@intertek.com</Property>
-				<Property Name="MSI_arpPhone" Type="Str">847-718-6323</Property>
-				<Property Name="MSI_arpURL" Type="Str">http://www.intertek.com/</Property>
-				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
-				<Property Name="MSI_distID" Type="Str">{6930A592-8303-4B7C-89CE-CF3141FA1FBE}</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{CE214F8B-3162-4BF6-8352-9168E9155FEE}</Property>
-				<Property Name="MSI_windowMessage" Type="Str">The Intertek Testing Suite will now be installing on your computer</Property>
-				<Property Name="MSI_windowTitle" Type="Str">Welcome!</Property>
-				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{724DF54D-F7BA-4F6B-917E-0531ED22A8B8}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{724DF54D-F7BA-4F6B-917E-0531ED22A8B8}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">Intertek Testing Suite.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Intertek Testing Suite</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Intertek Testing Suite</Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].tag" Type="Str">{C67915EB-5EF7-4C4B-941E-697BE77E288E}</Property>
-				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">Intertek Testing Suite</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Intertek Testing Suite</Property>
-				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
-			</Item>
-			<Item Name="Intertek Testing Suite" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{49FF09AC-C2CD-4A98-8555-FFCACFA8B06F}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{C41715BB-1496-4576-A5D2-459F1AD44D40}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{C59DF77F-9581-4167-AF3D-5C6E1A0E2B37}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Intertek Testing Suite</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Intertek Testing Suite/Intertek Testing Suite</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{037E2A46-BE2B-4E90-8928-3F9A0F2A6586}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Intertek Testing Suite.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Intertek Testing Suite/Intertek Testing Suite/Intertek Testing Suite.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Intertek Testing Suite/Intertek Testing Suite</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{595DF589-D818-4C13-BD30-00FEC3B7E584}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Misc. VI/Universal Power Meter.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/wyUpdate/client.wyc</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/wyUpdate/wyUpdate.exe</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="TgtF_companyName" Type="Str">HP</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Intertek Testing Suite</Property>
-				<Property Name="TgtF_internalName" Type="Str">Intertek Testing Suite</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 HP</Property>
-				<Property Name="TgtF_productName" Type="Str">Intertek Testing Suite</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{C67915EB-5EF7-4C4B-941E-697BE77E288E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Intertek Testing Suite.exe</Property>
 			</Item>
 			<Item Name="WT1600 Generic" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
