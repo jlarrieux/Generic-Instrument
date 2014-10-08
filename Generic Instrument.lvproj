@@ -13,8 +13,10 @@
 		<Item Name="Controller" Type="Folder">
 			<Item Name="Controller.vi" Type="VI" URL="../Controller/Controller.vi"/>
 			<Item Name="Generic Prompt.vi" Type="VI" URL="../Controller/Generic Prompt.vi"/>
+			<Item Name="Open VISA Session Monitor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/visa.llb/Open VISA Session Monitor.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
+			<Item Name="Graph Button.ctl" Type="VI" URL="../Controls/Graph Button.ctl"/>
 			<Item Name="Instrument ID Object.ctl" Type="VI" URL="../Controls/Instrument ID Object.ctl"/>
 			<Item Name="Integration State.ctl" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Integration State.ctl"/>
 			<Item Name="Manufacturer List.ctl" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Identification/Manufacturer List.ctl"/>
@@ -40,6 +42,7 @@
 			<Item Name="Universal Power Meter.vi" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Test/Universal Power Meter.vi"/>
 			<Item Name="Updater.vi" Type="VI" URL="../Misc VI/Updater.vi"/>
 		</Item>
+		<Item Name="TEST" Type="Folder"/>
 		<Item Name="wyUpdate" Type="Folder">
 			<Item Name="client.wyc" Type="Document" URL="../WyBuil Updater/wyUpdate/client.wyc"/>
 			<Item Name="wyUpdate.exe" Type="Document" URL="../WyBuil Updater/wyUpdate/wyUpdate.exe"/>
@@ -53,10 +56,12 @@
 		<Item Name="Generic Load.lvlib" Type="Library" URL="../Generic Load/Generic Load.lvlib"/>
 		<Item Name="Generic Power Analyzer.lvlib" Type="Library" URL="../Generic Power Analyzer/Generic Power Analyzer.lvlib"/>
 		<Item Name="Generic Power Supply.lvlib" Type="Library" URL="../Generic Power Supply/Generic Power Supply.lvlib"/>
+		<Item Name="Monitored Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/MGI/Monitored Actor/Monitored Actor.lvlib"/>
 		<Item Name="Numeric Time.ctl" Type="VI" URL="../Controls/Numeric Time.ctl"/>
 		<Item Name="Observer Pattern Actor Interface.lvlib" Type="Library" URL="../WT1600 Card/Observer Pattern Actor Template/Observer Pattern Actor Interface.lvlib"/>
 		<Item Name="SetUp VIs.lvlib" Type="Library" URL="../SetUp VIs/SetUp VIs.lvlib"/>
 		<Item Name="Sting Contains.vi" Type="VI" URL="../../Labview-Toolbox/Sting Contains.vi"/>
+		<Item Name="Subpanel Insertion.lvlib" Type="Library" URL="../Subpanel Insertion/Subpanel Insertion.lvlib"/>
 		<Item Name="test scratch.vi" Type="VI" URL="../Display Panel/Display Panel V3/Test/test scratch.vi"/>
 		<Item Name="Universal Power Meter.lvlib" Type="Library" URL="../Universal Power Meter/Universal Power Meter.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -343,6 +348,7 @@
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get Property Type.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/Get Property Type.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -362,6 +368,7 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Open Sessions.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/visa.llb/Open Sessions.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLParams.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/ParseXMLParams.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
