@@ -40,6 +40,7 @@
 	<Item Name="Blinking Boolean.vi" Type="VI" URL="../../../Labview-Toolbox/Blinking Boolean.vi"/>
 	<Item Name="Data Logger Display.lvclass" Type="LVClass" URL="../Data Logger Display/Data Logger Display.lvclass"/>
 	<Item Name="Display Panel V3.lvclass" Type="LVClass" URL="../Display Panel V3/Display Panel V3.lvclass"/>
+	<Item Name="PopUp Graph.lvclass" Type="LVClass" URL="../PopUp Graph/PopUp Graph.lvclass"/>
 	<Item Name="Power Meter Display.lvclass" Type="LVClass" URL="../Power Meter Display/Power Meter Display.lvclass"/>
 	<Item Name="Universal Display.lvclass" Type="LVClass" URL="../Universal Display/Universal Display.lvclass"/>
 </Library>

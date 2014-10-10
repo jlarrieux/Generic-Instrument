@@ -9,5 +9,6 @@
 	<Item Name="ID parser.vi" Type="VI" URL="../ID parser.vi"/>
 	<Item Name="Master Manufacturer List.vi" Type="VI" URL="../Master Manufacturer List.vi"/>
 	<Item Name="Query Each Found Address.vi" Type="VI" URL="../Query Each Found Address.vi"/>
+	<Item Name="TEST 2.vi" Type="VI" URL="../TEST 2.vi"/>
 	<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 </Library>
