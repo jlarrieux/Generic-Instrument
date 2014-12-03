@@ -4,11 +4,20 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Message for Instrument Finder" Type="Folder">
+		<Item Name="Delete from Array of Instrument Addresses Msg.lvclass" Type="LVClass" URL="../Instrument Finder Messages/Delete from Array of Instrument Addresses Msg/Delete from Array of Instrument Addresses Msg.lvclass"/>
+		<Item Name="Write Array of Launch Instrument Addresses Msg.lvclass" Type="LVClass" URL="../Instrument Finder Messages/Write Array of Launch Instrument Addresses Msg/Write Array of Launch Instrument Addresses Msg.lvclass"/>
+		<Item Name="Write into Array of Instrument addresses Msg.lvclass" Type="LVClass" URL="../Instrument Finder Messages/Write into Array of Instrument addresses Msg/Write into Array of Instrument addresses Msg.lvclass"/>
+	</Item>
 	<Item Name="Clean up Interface type.vi" Type="VI" URL="../Clean up Interface type.vi"/>
 	<Item Name="Find All Instruments.vi" Type="VI" URL="../Find All Instruments.vi"/>
 	<Item Name="ID parser.vi" Type="VI" URL="../ID parser.vi"/>
+	<Item Name="Instrument Finder.lvclass" Type="LVClass" URL="../Instrument Finder/Instrument Finder.lvclass"/>
+	<Item Name="Low Level Find All.vi" Type="VI" URL="../Low Level Find All.vi"/>
 	<Item Name="Master Manufacturer List.vi" Type="VI" URL="../Master Manufacturer List.vi"/>
 	<Item Name="Query Each Found Address.vi" Type="VI" URL="../Query Each Found Address.vi"/>
+	<Item Name="Scan ALL.vi" Type="VI" URL="../Scan ALL.vi"/>
 	<Item Name="TEST 2.vi" Type="VI" URL="../TEST 2.vi"/>
+	<Item Name="Test 3.vi" Type="VI" URL="../Test 3.vi"/>
 	<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 </Library>

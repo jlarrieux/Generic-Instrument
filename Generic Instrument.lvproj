@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -11,11 +12,20 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Controller" Type="Folder">
+			<Item Name="Message for Controller" Type="Folder">
+				<Item Name="Write array of Instrument value to Ref Msg.lvclass" Type="LVClass" URL="../Controller Messages/Write array of Instrument value to Ref Msg/Write array of Instrument value to Ref Msg.lvclass"/>
+				<Item Name="Write Array refnum Msg.lvclass" Type="LVClass" URL="../Controller Messages/Write Array refnum Msg/Write Array refnum Msg.lvclass"/>
+				<Item Name="write array value to Ref Msg.lvclass" Type="LVClass" URL="../Controller Messages/write array value to Ref Msg/write array value to Ref Msg.lvclass"/>
+				<Item Name="Write Instrument finder Done boolean to Ref Msg.lvclass" Type="LVClass" URL="../Controller Messages/Write Instrument finder Done boolean to Ref Msg/Write Instrument finder Done boolean to Ref Msg.lvclass"/>
+			</Item>
+			<Item Name="Controller 2.vi" Type="VI" URL="../Controller/Controller 2.vi"/>
+			<Item Name="Controller.lvclass" Type="LVClass" URL="../Controller/Controller.lvclass"/>
 			<Item Name="Controller.vi" Type="VI" URL="../Controller/Controller.vi"/>
 			<Item Name="Generic Prompt.vi" Type="VI" URL="../Controller/Generic Prompt.vi"/>
 			<Item Name="Open VISA Session Monitor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/visa.llb/Open VISA Session Monitor.vi"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
+			<Item Name="Enum for Instrument Finder State Machine.ctl" Type="VI" URL="../Controls/Enum for Instrument Finder State Machine.ctl"/>
 			<Item Name="Graph Button.ctl" Type="VI" URL="../Controls/Graph Button.ctl"/>
 			<Item Name="Instrument ID Object.ctl" Type="VI" URL="../Controls/Instrument ID Object.ctl"/>
 			<Item Name="Integration State.ctl" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Integration State.ctl"/>
@@ -25,6 +35,7 @@
 			<Item Name="Measurement String Tags.ctl" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Measurement String Tags.ctl"/>
 			<Item Name="Models.ctl" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Models.ctl"/>
 			<Item Name="Numeric Indicator.ctl" Type="VI" URL="../Controls/Numeric Indicator.ctl"/>
+			<Item Name="Numeric Time.ctl" Type="VI" URL="../Controls/Numeric Time.ctl"/>
 			<Item Name="PathFinder Type def.ctl" Type="VI" URL="../Data Logger/PathFinder Type def.ctl"/>
 			<Item Name="State Control.ctl" Type="VI" URL="../Generic Power Supply/Abstract Power Supply/State Control.ctl"/>
 			<Item Name="Type.ctl" Type="VI" URL="../Generic Power Supply/Abstract Power Supply/Type.ctl"/>
@@ -42,7 +53,10 @@
 			<Item Name="Universal Power Meter.vi" Type="VI" URL="../Universal Power Meter/Universal Power Meter class/Test/Universal Power Meter.vi"/>
 			<Item Name="Updater.vi" Type="VI" URL="../Misc VI/Updater.vi"/>
 		</Item>
-		<Item Name="TEST" Type="Folder"/>
+		<Item Name="TEST" Type="Folder">
+			<Item Name="1Main.vi" Type="VI" URL="../Test/1Main.vi"/>
+			<Item Name="2Slave.vi" Type="VI" URL="../Test/2Slave.vi"/>
+		</Item>
 		<Item Name="wyUpdate" Type="Folder">
 			<Item Name="client.wyc" Type="Document" URL="../WyBuil Updater/wyUpdate/client.wyc"/>
 			<Item Name="wyUpdate.exe" Type="Document" URL="../WyBuil Updater/wyUpdate/wyUpdate.exe"/>
@@ -50,20 +64,23 @@
 		<Item Name="Abstract Sensor.lvlib" Type="Library" URL="../Abstract Sensor/Abstract Sensor.lvlib"/>
 		<Item Name="Data Logger.lvlib" Type="Library" URL="../Data Logger/Data Logger.lvlib"/>
 		<Item Name="Display Panel.lvlib" Type="Library" URL="../Display Panel/Display Panel.lvlib"/>
-		<Item Name="fileversion.lvlib" Type="Library" URL="../fileVersionInfo/fileversion.lvlib"/>
 		<Item Name="Generic Data Acquisition.lvlib" Type="Library" URL="../Generic Data Acquisition/Generic Data Acquisition.lvlib"/>
+		<Item Name="fileversion.lvlib" Type="Library" URL="../fileVersionInfo/fileversion.lvlib"/>
 		<Item Name="Generic Instrument.lvlib" Type="Library" URL="../Generic Instrument.lvlib"/>
 		<Item Name="Generic Load.lvlib" Type="Library" URL="../Generic Load/Generic Load.lvlib"/>
 		<Item Name="Generic Power Analyzer.lvlib" Type="Library" URL="../Generic Power Analyzer/Generic Power Analyzer.lvlib"/>
 		<Item Name="Generic Power Supply.lvlib" Type="Library" URL="../Generic Power Supply/Generic Power Supply.lvlib"/>
+		<Item Name="Generic Prompt.lvlib" Type="Library" URL="../Generic Prompt/Generic Prompt.lvlib"/>
 		<Item Name="Monitored Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/MGI/Monitored Actor/Monitored Actor.lvlib"/>
-		<Item Name="Numeric Time.ctl" Type="VI" URL="../Controls/Numeric Time.ctl"/>
+		<Item Name="New Session Class.lvlib" Type="Library" URL="../New Session Class/New Session Class.lvlib"/>
 		<Item Name="Observer Pattern Actor Interface.lvlib" Type="Library" URL="../WT1600 Card/Observer Pattern Actor Template/Observer Pattern Actor Interface.lvlib"/>
 		<Item Name="SetUp VIs.lvlib" Type="Library" URL="../SetUp VIs/SetUp VIs.lvlib"/>
 		<Item Name="Sting Contains.vi" Type="VI" URL="../../Labview-Toolbox/Sting Contains.vi"/>
 		<Item Name="Subpanel Insertion.lvlib" Type="Library" URL="../Subpanel Insertion/Subpanel Insertion.lvlib"/>
 		<Item Name="test scratch.vi" Type="VI" URL="../Display Panel/Display Panel V3/Test/test scratch.vi"/>
 		<Item Name="Universal Power Meter.lvlib" Type="Library" URL="../Universal Power Meter/Universal Power Meter.lvlib"/>
+		<Item Name="AMS TS3472 Light Sensor.lvlib" Type="Library" URL="../AMS TS3472 Light Sensor/AMS TS3472 Light Sensor.lvlib"/>
+		<Item Name="Host Adapter.lvlib" Type="Library" URL="../Host Adapter/Host Adapter.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="_YKWT500 Query Number of List Order.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Query Number of List Order.vi"/>
@@ -76,6 +93,7 @@
 				<Item Name="Configure Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Configure/Configure Measurement.vi"/>
 				<Item Name="Fluke 2625A buffer Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Private/Fluke 2625A buffer Read.vi"/>
 				<Item Name="Fluke 2625A.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Fluke 2625A/Fluke 2625A.lvlib"/>
+				<Item Name="Tektronix DMM4020.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix DMM4020/Tektronix DMM4020.lvlib"/>
 				<Item Name="Tektronix PA1000.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix PA1000/Tektronix PA1000.lvlib"/>
 				<Item Name="YKWT500 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Close.vi"/>
 				<Item Name="YKWT500 Configure Current.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Current.vi"/>
@@ -120,6 +138,9 @@
 				<Item Name="YKWT1600 Utility Clean Up Initialize" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt160u.llb/YKWT1600 Utility Clean Up Initialize"/>
 				<Item Name="YKWT1600 Utility Default Instrument Setup" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt160u.llb/YKWT1600 Utility Default Instrument Setup"/>
 				<Item Name="Yokogawa WT200 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Yokogawa WT200 Series/Yokogawa WT200 Series.lvlib"/>
+				<Item Name="Aardvark Convert Error.vi" Type="VI" URL="/&lt;instrlib&gt;/TotalPhase aardvark/aardvaru.llb/Aardvark Convert Error.vi"/>
+				<Item Name="Aardvark Find Devices.vi" Type="VI" URL="/&lt;instrlib&gt;/TotalPhase aardvark/aardvark.llb/Aardvark Find Devices.vi"/>
+				<Item Name="aardvark.dll" Type="Document" URL="/&lt;instrlib&gt;/TotalPhase aardvark/aardvark.dll"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
@@ -240,6 +261,7 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventsource.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventsource.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_AddColToHdngs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_AddColToHdngs.vi"/>
 				<Item Name="ex_AddHeaderElementToArray.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_AddHeaderElementToArray.vi"/>
@@ -348,6 +370,7 @@
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get Property Type.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/Get Property Type.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
@@ -362,6 +385,7 @@
 				<Item Name="LV70TimeStampToDateRec.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70TimeStampToDateRec.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -407,9 +431,6 @@
 				<Item Name="usiSequenceRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/usiSequenceRepresentation.ctl"/>
 				<Item Name="usiTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/usiTypeDef.ctl"/>
 				<Item Name="usiValueFlags.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/usiValueFlags.ctl"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
@@ -433,6 +454,7 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Send Stop Event.vi" Type="VI" URL="../Generic Instrument/Send Stop Event.vi"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

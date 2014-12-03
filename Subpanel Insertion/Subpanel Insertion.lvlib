@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Messages for Subpanel Inserter" Type="Folder">
 		<Item Name="Insert Into Subpanel Msg.lvclass" Type="LVClass" URL="../../Subpanel Inserter Messages/Insert Into Subpanel Msg/Insert Into Subpanel Msg.lvclass"/>
+		<Item Name="Remove from Subpanel Msg.lvclass" Type="LVClass" URL="../../Subpanel Inserter Messages/Remove from Subpanel Msg/Remove from Subpanel Msg.lvclass"/>
 		<Item Name="Send Stop Event Msg.lvclass" Type="LVClass" URL="../../Subpanel Inserter Messages/Send Stop Event Msg/Send Stop Event Msg.lvclass"/>
 	</Item>
 	<Item Name="Subpanel Inserter.lvclass" Type="LVClass" URL="../Subpanel Inserter.lvclass"/>
