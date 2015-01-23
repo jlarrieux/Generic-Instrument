@@ -71,7 +71,6 @@
 		<Item Name="Generic Power Analyzer.lvlib" Type="Library" URL="../Generic Power Analyzer/Generic Power Analyzer.lvlib"/>
 		<Item Name="Generic Power Supply.lvlib" Type="Library" URL="../Generic Power Supply/Generic Power Supply.lvlib"/>
 		<Item Name="Generic Prompt.lvlib" Type="Library" URL="../Generic Prompt/Generic Prompt.lvlib"/>
-		<Item Name="Monitored Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/MGI/Monitored Actor/Monitored Actor.lvlib"/>
 		<Item Name="New Session Class.lvlib" Type="Library" URL="../New Session Class/New Session Class.lvlib"/>
 		<Item Name="Observer Pattern Actor Interface.lvlib" Type="Library" URL="../WT1600 Card/Observer Pattern Actor Template/Observer Pattern Actor Interface.lvlib"/>
 		<Item Name="SetUp VIs.lvlib" Type="Library" URL="../SetUp VIs/SetUp VIs.lvlib"/>
@@ -81,6 +80,7 @@
 		<Item Name="Universal Power Meter.lvlib" Type="Library" URL="../Universal Power Meter/Universal Power Meter.lvlib"/>
 		<Item Name="AMS TS3472 Light Sensor.lvlib" Type="Library" URL="../AMS TS3472 Light Sensor/AMS TS3472 Light Sensor.lvlib"/>
 		<Item Name="Host Adapter.lvlib" Type="Library" URL="../Host Adapter/Host Adapter.lvlib"/>
+		<Item Name="Generic Digital Multi Meter.lvlib" Type="Library" URL="../Generic Digital Multi Meter/Generic Digita Multi Meter/Generic Digital Multi Meter.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="_YKWT500 Query Number of List Order.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Query Number of List Order.vi"/>
@@ -443,6 +443,8 @@
 				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
+				<Item Name="Monitored Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/MGI/Monitored Actor/Monitored Actor.lvlib"/>
+				<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
 			</Item>
 			<Item Name="Global 2.vi" Type="VI" URL="../WT1600 Card/Global 2.vi"/>
 			<Item Name="ivi.dll" Type="Document" URL="ivi.dll">

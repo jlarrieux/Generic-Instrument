@@ -6,7 +6,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Generic Power Analyzer Card.lvclass" Type="LVClass" URL="../Generic Power Analyzer Card/Generic Power Analyzer Card.lvclass"/>
 	<Item Name="Generic Power Analyzer.lvclass" Type="LVClass" URL="../Generic Power Analyzer/Generic Power Analyzer.lvclass"/>
-	<Item Name="Tektronix DMM4020.lvlib" Type="Library" URL="../Tektronix DMM4020/Tektronix DMM4020.lvlib"/>
 	<Item Name="Tektronix PA1000.lvlib" Type="Library" URL="../Tektronix PA1000/Tektronix PA1000.lvlib"/>
 	<Item Name="Yokogawa WT2X0.lvlib" Type="Library" URL="../Yokogawa WT2X0/Yokogawa WT2X0.lvlib"/>
 	<Item Name="Yokogawa WT500.lvlib" Type="Library" URL="../Yokogawa WT500/Yokogawa WT500.lvlib"/>
