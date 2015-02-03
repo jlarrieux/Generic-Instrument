@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Message for Abstract Sensor" Type="Folder">
 		<Item Name="Measure Msg.lvclass" Type="LVClass" URL="../../Abstract Sensor Messages/Measure Msg/Measure Msg.lvclass"/>
+		<Item Name="Write WFChart Refnum Msg.lvclass" Type="LVClass" URL="../../Abstract Sensor Messages/Write WFChart Refnum Msg/Write WFChart Refnum Msg.lvclass"/>
 	</Item>
 	<Item Name="Abstract Sensor.lvclass" Type="LVClass" URL="../Abstract Sensor.lvclass"/>
 </Library>

@@ -56,6 +56,7 @@
 		<Item Name="TEST" Type="Folder">
 			<Item Name="1Main.vi" Type="VI" URL="../Test/1Main.vi"/>
 			<Item Name="2Slave.vi" Type="VI" URL="../Test/2Slave.vi"/>
+			<Item Name="Temp.vi" Type="VI" URL="../Test/Temp.vi"/>
 		</Item>
 		<Item Name="wyUpdate" Type="Folder">
 			<Item Name="client.wyc" Type="Document" URL="../WyBuil Updater/wyUpdate/client.wyc"/>
