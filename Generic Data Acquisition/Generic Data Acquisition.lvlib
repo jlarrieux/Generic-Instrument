@@ -6,4 +6,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Fluke Hydra.lvlib" Type="Library" URL="../Fluke Hydra/Fluke Hydra.lvlib"/>
 	<Item Name="Generic Data Acquisition.lvclass" Type="LVClass" URL="../Generic Data Acquisition.lvclass"/>
+	<Item Name="National Instrument USB-6501.lvlib" Type="Library" URL="../National Instrument USB-6501/National Instrument USB-6501.lvlib"/>
 </Library>
