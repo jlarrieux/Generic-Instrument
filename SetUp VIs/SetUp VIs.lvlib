@@ -10,12 +10,14 @@
 		<Item Name="Write into Array of Instrument addresses Msg.lvclass" Type="LVClass" URL="../Instrument Finder Messages/Write into Array of Instrument addresses Msg/Write into Array of Instrument addresses Msg.lvclass"/>
 	</Item>
 	<Item Name="Clean up Interface type.vi" Type="VI" URL="../Clean up Interface type.vi"/>
+	<Item Name="DAQmx Query.vi" Type="VI" URL="../DAQmx Query.vi"/>
 	<Item Name="Find All Instruments.vi" Type="VI" URL="../Find All Instruments.vi"/>
 	<Item Name="ID parser.vi" Type="VI" URL="../ID parser.vi"/>
 	<Item Name="Instrument Finder.lvclass" Type="LVClass" URL="../Instrument Finder/Instrument Finder.lvclass"/>
 	<Item Name="Low Level Find All.vi" Type="VI" URL="../Low Level Find All.vi"/>
 	<Item Name="Master Manufacturer List.vi" Type="VI" URL="../Master Manufacturer List.vi"/>
 	<Item Name="Query Each Found Address.vi" Type="VI" URL="../Query Each Found Address.vi"/>
+	<Item Name="Readable Class Name.vi" Type="VI" URL="../Readable Class Name.vi"/>
 	<Item Name="Scan ALL.vi" Type="VI" URL="../Scan ALL.vi"/>
 	<Item Name="TEST 2.vi" Type="VI" URL="../TEST 2.vi"/>
 	<Item Name="Test 3.vi" Type="VI" URL="../Test 3.vi"/>

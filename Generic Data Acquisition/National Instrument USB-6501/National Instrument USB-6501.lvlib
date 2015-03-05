@@ -6,5 +6,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Message for USB-6501" Type="Folder">
+		<Item Name="Execute Channel Msg.lvclass" Type="LVClass" URL="../../National Instrument USB-6501 Messages/Execute Channel Msg/Execute Channel Msg.lvclass"/>
+		<Item Name="Write channel Msg.lvclass" Type="LVClass" URL="../../National Instrument USB-6501 Messages/Write channel Msg/Write channel Msg.lvclass"/>
+	</Item>
 	<Item Name="National Instrument USB-6501.lvclass" Type="LVClass" URL="../National Instrument USB-6501.lvclass"/>
 </Library>
