@@ -1,5 +1,14 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.Project.Description" Type="Str">This project is intended to be a complete set of abstracted interface consisting of 2 main tracks: 
+
+-Generic Instrument: meant for any controllable laboratory instruments (power analyzer, data logger,...)
+
+-Control System Object: meant for any type of industrial or commercial control device (Lutron QS system,...)
+
+
+The root ancestor is DEVICE that has 2 children: Generic Instrument, Control System Object.</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -42,6 +51,7 @@
 			<Item Name="Unit Measurement.ctl" Type="VI" URL="../Generic Data Acquisition/Fluke Hydra/Unit Measurement.ctl"/>
 			<Item Name="I-O characteristics.ctl" Type="VI" URL="../../Focal Point End Of Line Tester/Controls/I-O characteristics.ctl"/>
 			<Item Name="Data Acquisition Channel Settings.ctl" Type="VI" URL="../Controls/Data Acquisition Channel Settings.ctl"/>
+			<Item Name="Generic Device Type.ctl" Type="VI" URL="../Controls/Generic Device Type.ctl"/>
 		</Item>
 		<Item Name="Display Panel VI" Type="Folder"/>
 		<Item Name="Misc. VI" Type="Folder">
@@ -64,26 +74,34 @@
 			<Item Name="client.wyc" Type="Document" URL="../WyBuil Updater/wyUpdate/client.wyc"/>
 			<Item Name="wyUpdate.exe" Type="Document" URL="../WyBuil Updater/wyUpdate/wyUpdate.exe"/>
 		</Item>
-		<Item Name="Abstract Sensor.lvlib" Type="Library" URL="../Abstract Sensor/Abstract Sensor.lvlib"/>
-		<Item Name="Data Logger.lvlib" Type="Library" URL="../Data Logger/Data Logger.lvlib"/>
-		<Item Name="Display Panel.lvlib" Type="Library" URL="../Display Panel/Display Panel.lvlib"/>
-		<Item Name="Generic Data Acquisition.lvlib" Type="Library" URL="../Generic Data Acquisition/Generic Data Acquisition.lvlib"/>
-		<Item Name="fileversion.lvlib" Type="Library" URL="../fileVersionInfo/fileversion.lvlib"/>
-		<Item Name="Generic Instrument.lvlib" Type="Library" URL="../Generic Instrument.lvlib"/>
-		<Item Name="Generic Load.lvlib" Type="Library" URL="../Generic Load/Generic Load.lvlib"/>
-		<Item Name="Generic Power Analyzer.lvlib" Type="Library" URL="../Generic Power Analyzer/Generic Power Analyzer.lvlib"/>
-		<Item Name="Generic Power Supply.lvlib" Type="Library" URL="../Generic Power Supply/Generic Power Supply.lvlib"/>
-		<Item Name="Generic Prompt.lvlib" Type="Library" URL="../Generic Prompt/Generic Prompt.lvlib"/>
-		<Item Name="New Session Class.lvlib" Type="Library" URL="../New Session Class/New Session Class.lvlib"/>
-		<Item Name="Observer Pattern Actor Interface.lvlib" Type="Library" URL="../WT1600 Card/Observer Pattern Actor Template/Observer Pattern Actor Interface.lvlib"/>
-		<Item Name="SetUp VIs.lvlib" Type="Library" URL="../SetUp VIs/SetUp VIs.lvlib"/>
-		<Item Name="Sting Contains.vi" Type="VI" URL="../../Labview-Toolbox/Sting Contains.vi"/>
-		<Item Name="Subpanel Insertion.lvlib" Type="Library" URL="../Subpanel Insertion/Subpanel Insertion.lvlib"/>
-		<Item Name="test scratch.vi" Type="VI" URL="../Display Panel/Display Panel V3/Test/test scratch.vi"/>
-		<Item Name="Universal Power Meter.lvlib" Type="Library" URL="../Universal Power Meter/Universal Power Meter.lvlib"/>
-		<Item Name="AMS TS3472 Light Sensor.lvlib" Type="Library" URL="../AMS TS3472 Light Sensor/AMS TS3472 Light Sensor.lvlib"/>
-		<Item Name="Host Adapter.lvlib" Type="Library" URL="../Host Adapter/Host Adapter.lvlib"/>
-		<Item Name="Generic Digital Multi Meter.lvlib" Type="Library" URL="../Generic Digital Multi Meter/Generic Digita Multi Meter/Generic Digital Multi Meter.lvlib"/>
+		<Item Name="Instruments" Type="Folder">
+			<Item Name="Abstract Sensor.lvlib" Type="Library" URL="../Abstract Sensor/Abstract Sensor.lvlib"/>
+			<Item Name="Data Logger.lvlib" Type="Library" URL="../Data Logger/Data Logger.lvlib"/>
+			<Item Name="Display Panel.lvlib" Type="Library" URL="../Display Panel/Display Panel.lvlib"/>
+			<Item Name="Generic Data Acquisition.lvlib" Type="Library" URL="../Generic Data Acquisition/Generic Data Acquisition.lvlib"/>
+			<Item Name="fileversion.lvlib" Type="Library" URL="../fileVersionInfo/fileversion.lvlib"/>
+			<Item Name="Generic Instrument.lvlib" Type="Library" URL="../Generic Instrument.lvlib"/>
+			<Item Name="Generic Load.lvlib" Type="Library" URL="../Generic Load/Generic Load.lvlib"/>
+			<Item Name="Generic Power Analyzer.lvlib" Type="Library" URL="../Generic Power Analyzer/Generic Power Analyzer.lvlib"/>
+			<Item Name="Generic Power Supply.lvlib" Type="Library" URL="../Generic Power Supply/Generic Power Supply.lvlib"/>
+			<Item Name="Generic Prompt.lvlib" Type="Library" URL="../Generic Prompt/Generic Prompt.lvlib"/>
+			<Item Name="New Session Class.lvlib" Type="Library" URL="../New Session Class/New Session Class.lvlib"/>
+			<Item Name="Observer Pattern Actor Interface.lvlib" Type="Library" URL="../WT1600 Card/Observer Pattern Actor Template/Observer Pattern Actor Interface.lvlib"/>
+			<Item Name="SetUp VIs.lvlib" Type="Library" URL="../SetUp VIs/SetUp VIs.lvlib"/>
+			<Item Name="Sting Contains.vi" Type="VI" URL="../../Labview-Toolbox/Sting Contains.vi"/>
+			<Item Name="Subpanel Insertion.lvlib" Type="Library" URL="../Subpanel Insertion/Subpanel Insertion.lvlib"/>
+			<Item Name="test scratch.vi" Type="VI" URL="../Display Panel/Display Panel V3/Test/test scratch.vi"/>
+			<Item Name="Universal Power Meter.lvlib" Type="Library" URL="../Universal Power Meter/Universal Power Meter.lvlib"/>
+			<Item Name="AMS TS3472 Light Sensor.lvlib" Type="Library" URL="../AMS TS3472 Light Sensor/AMS TS3472 Light Sensor.lvlib"/>
+			<Item Name="Host Adapter.lvlib" Type="Library" URL="../Host Adapter/Host Adapter.lvlib"/>
+			<Item Name="Generic Digital Multi Meter.lvlib" Type="Library" URL="../Generic Digital Multi Meter/Generic Digita Multi Meter/Generic Digital Multi Meter.lvlib"/>
+		</Item>
+		<Item Name="Control System" Type="Folder">
+			<Item Name="Control System Object.lvlib" Type="Library" URL="../Control System Object/Control System Object.lvlib"/>
+			<Item Name="Lutron QS Control Protocol.lvlib" Type="Library" URL="../Lutron Grafik Eye/Lutron QS Control Protocol.lvlib"/>
+		</Item>
+		<Item Name="Data Saving.lvlib" Type="Library" URL="../Data Saving/Data Saving.lvlib"/>
+		<Item Name="Generic Device.lvlib" Type="Library" URL="../Device/Generic Device.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="_YKWT500 Query Number of List Order.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Query Number of List Order.vi"/>
@@ -757,7 +775,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{C5DDDDC5-CC92-4FD3-BE31-B15DC6124CF3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Generic Digital Multi Meter.lvlib/Tektronix DMM4020.lvlib/Tektronix DMM4020.lvclass/Test/Test 1.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Instruments/Generic Digital Multi Meter.lvlib/Tektronix DMM4020.lvlib/Tektronix DMM4020.lvclass/Test/Test 1.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
