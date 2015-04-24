@@ -26,4 +26,14 @@
 	<Item Name="Control System Object.ctl" Type="Class Private Data" URL="Control System Object.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="ID Parser.vi" Type="VI" URL="../ID Parser.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'&amp;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;Z!=!!?!!!\'U.P&lt;H2S&lt;WQA5XFT&gt;'6N)%^C;G6D&gt;#ZM&gt;GRJ9BV$&lt;WZU=G^M)&amp;.Z=X2F&lt;3"09GJF9X1O&lt;(:D&lt;'&amp;T=Q!:1W^O&gt;(*P&lt;#"4?8.U:7UA4W*K:7.U)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!R!-0````]#351!!&amp;Z!=!!?!!!\'U.P&lt;H2S&lt;WQA5XFT&gt;'6N)%^C;G6D&gt;#ZM&gt;GRJ9BV$&lt;WZU=G^M)&amp;.Z=X2F&lt;3"09GJF9X1O&lt;(:D&lt;'&amp;T=Q!91W^O&gt;(*P&lt;#"4?8.U:7UA4W*K:7.U)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!))!!!!E!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.MustOverride" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+	</Item>
 </LVClass>
