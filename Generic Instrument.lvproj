@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="16008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str">This project is intended to be a complete set of abstracted interface consisting of 2 main tracks: 
 
@@ -87,8 +87,7 @@ The root ancestor is DEVICE that has 2 children: Generic Instrument, Control Sys
 			<Item Name="Generic Prompt.lvlib" Type="Library" URL="../Generic Prompt/Generic Prompt.lvlib"/>
 			<Item Name="New Session Class.lvlib" Type="Library" URL="../New Session Class/New Session Class.lvlib"/>
 			<Item Name="Observer Pattern Actor Interface.lvlib" Type="Library" URL="../WT1600 Card/Observer Pattern Actor Template/Observer Pattern Actor Interface.lvlib"/>
-			<Item Name="SetUp VIs.lvlib" Type="Library" URL="../SetUp VIs/SetUp VIs.lvlib"/>
-			<Item Name="Sting Contains.vi" Type="VI" URL="../../Labview-Toolbox/Sting Contains.vi"/>
+			<Item Name="String Contains.vi" Type="VI" URL="../../Labview Tool box/String Contains.vi"/>
 			<Item Name="Subpanel Insertion.lvlib" Type="Library" URL="../Subpanel Insertion/Subpanel Insertion.lvlib"/>
 			<Item Name="test scratch.vi" Type="VI" URL="../Display Panel/Display Panel V3/Test/test scratch.vi"/>
 			<Item Name="Universal Power Meter.lvlib" Type="Library" URL="../Universal Power Meter/Universal Power Meter.lvlib"/>
@@ -99,93 +98,97 @@ The root ancestor is DEVICE that has 2 children: Generic Instrument, Control Sys
 		<Item Name="Control System" Type="Folder">
 			<Item Name="Control System Object.lvlib" Type="Library" URL="../Control System Object/Control System Object.lvlib"/>
 			<Item Name="Lutron QS Control Protocol.lvlib" Type="Library" URL="../Lutron Grafik Eye/Lutron QS Control Protocol.lvlib"/>
+			<Item Name="Find All.vi" Type="VI" URL="../Lutron Grafik Eye/Lutron QS Object/Find All.vi"/>
 		</Item>
-		<Item Name="Data Saving.lvlib" Type="Library" URL="../Data Saving/Data Saving.lvlib"/>
+		<Item Name="Data Saving.lvlib" Type="Library" URL="../Data Saving/TDMS Saver/Data Saving.lvlib"/>
 		<Item Name="Generic Device.lvlib" Type="Library" URL="../Device/Generic Device.lvlib"/>
+		<Item Name="Aardvark Find Devices.vi" Type="VI" URL="/&lt;instrlib&gt;/aardvark/aardvark.llb/Aardvark Find Devices.vi"/>
+		<Item Name="Control System Visa Address and String cluster.ctl" Type="VI" URL="../Controls/Control System Visa Address and String cluster.ctl"/>
+		<Item Name="SetUp VIs.lvlib" Type="Library" URL="../SetUp VIs/SetUp VIs.lvlib"/>
+		<Item Name="Monitored Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/MGI/Monitored Actor/Monitored Actor.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="_YKWT500 Query Number of List Order.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Query Number of List Order.vi"/>
 				<Item Name="_YKWT500 Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Query.vi"/>
-				<Item Name="_YKWT500 Utility Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Utility Default Instrument Setup.vi"/>
 				<Item Name="_YKWT500 Write.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Write.vi"/>
 				<Item Name="Configure Function.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Configure/Configure Function.vi"/>
-				<Item Name="Configure Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Configure/Configure Measurement.vi"/>
-				<Item Name="Fluke 2625A.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Fluke 2625A/Fluke 2625A.lvlib"/>
-				<Item Name="Tektronix DMM4020.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix DMM4020/Tektronix DMM4020.lvlib"/>
-				<Item Name="Tektronix PA1000.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix PA1000/Tektronix PA1000.lvlib"/>
 				<Item Name="YKWT500 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Close.vi"/>
 				<Item Name="YKWT500 Configure Current.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Current.vi"/>
 				<Item Name="YKWT500 Configure Display Numeric Format.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Display Numeric Format.vi"/>
 				<Item Name="YKWT500 Configure Display Numeric.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Display Numeric.vi"/>
 				<Item Name="YKWT500 Configure Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Integration.vi"/>
-				<Item Name="YKWT500 Configure Numeric Item (Delete).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item (Delete).vi"/>
-				<Item Name="YKWT500 Configure Numeric Item (Preset).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item (Preset).vi"/>
 				<Item Name="YKWT500 Configure Numeric Item (Set).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item (Set).vi"/>
-				<Item Name="YKWT500 Configure Numeric Item.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item.vi"/>
-				<Item Name="YKWT500 Configure Numeric List (Delete).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List (Delete).vi"/>
-				<Item Name="YKWT500 Configure Numeric List (Preset).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List (Preset).vi"/>
-				<Item Name="YKWT500 Configure Numeric List (Set).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List (Set).vi"/>
-				<Item Name="YKWT500 Configure Numeric List.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List.vi"/>
 				<Item Name="YKWT500 Configure Voltage.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Voltage.vi"/>
 				<Item Name="YKWT500 Configure Wiring.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Wiring.vi"/>
-				<Item Name="YKWT500 Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Error Query.vi"/>
-				<Item Name="YKWT500 Fetch Numeric (List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Fetch Numeric (List).vi"/>
-				<Item Name="YKWT500 Fetch Numeric (Normal).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Fetch Numeric (Normal).vi"/>
 				<Item Name="YKWT500 Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Initialize.vi"/>
-				<Item Name="YKWT500 Initiate.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Initiate.vi"/>
-				<Item Name="YKWT500 Query Condition Status.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Query Condition Status.vi"/>
-				<Item Name="YKWT500 Read Numeric (List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (List).vi"/>
 				<Item Name="YKWT500 Read Numeric (Normal).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (Normal).vi"/>
-				<Item Name="YKWT500 Read Numeric (Preset List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (Preset List).vi"/>
-				<Item Name="YKWT500 Read Numeric (Preset Normal).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (Preset Normal).vi"/>
 				<Item Name="YKWT500 Read Numeric.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric.vi"/>
-				<Item Name="YKWT500 Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Reset.vi"/>
 				<Item Name="YKWT500 Start Stop Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Start Stop Integration.vi"/>
-				<Item Name="YKWT500 Wait for Acquisition Complete.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Wait for Acquisition Complete.vi"/>
 				<Item Name="YKWT1600 Close.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Close.vi"/>
 				<Item Name="YKWT1600 Config Current.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Config Current.vi"/>
 				<Item Name="YKWT1600 Config Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Config Integration.vi"/>
 				<Item Name="YKWT1600 Config Voltage.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Config Voltage.vi"/>
 				<Item Name="YKWT1600 Config Wiring.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Config Wiring.vi"/>
 				<Item Name="YKWT1600 Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Initialize.vi"/>
-				<Item Name="YKWT1600 Query Condition Status.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Query Condition Status.vi"/>
 				<Item Name="YKWT1600 Read Preset Numeric Normal.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Read Preset Numeric Normal.vi"/>
 				<Item Name="YKWT1600 Reset Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Reset Integration.vi"/>
 				<Item Name="YKWT1600 Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Reset.vi"/>
 				<Item Name="YKWT1600 Start Stop Integration.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Start Stop Integration.vi"/>
-				<Item Name="YKWT1600 Utility Clean Up Initialize" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt160u.llb/YKWT1600 Utility Clean Up Initialize"/>
-				<Item Name="YKWT1600 Utility Default Instrument Setup" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt160u.llb/YKWT1600 Utility Default Instrument Setup"/>
+				<Item Name="Tektronix PA1000.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix PA1000/Tektronix PA1000.lvlib"/>
 				<Item Name="Yokogawa WT200 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Yokogawa WT200 Series/Yokogawa WT200 Series.lvlib"/>
-				<Item Name="Aardvark Convert Error.vi" Type="VI" URL="/&lt;instrlib&gt;/TotalPhase aardvark/aardvaru.llb/Aardvark Convert Error.vi"/>
-				<Item Name="Aardvark Find Devices.vi" Type="VI" URL="/&lt;instrlib&gt;/TotalPhase aardvark/aardvark.llb/Aardvark Find Devices.vi"/>
-				<Item Name="aardvark.dll" Type="Document" URL="/&lt;instrlib&gt;/TotalPhase aardvark/aardvark.dll"/>
+				<Item Name="YKWT1600 Utility Default Instrument Setup" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt160u.llb/YKWT1600 Utility Default Instrument Setup"/>
+				<Item Name="YKWT1600 Utility Clean Up Initialize" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt160u.llb/YKWT1600 Utility Clean Up Initialize"/>
+				<Item Name="YKWT1600 Query Condition Status.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt1600/Ykwt1600.llb/YKWT1600 Query Condition Status.vi"/>
+				<Item Name="YKWT500 Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Error Query.vi"/>
+				<Item Name="YKWT500 Fetch Numeric (Normal).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Fetch Numeric (Normal).vi"/>
+				<Item Name="YKWT500 Wait for Acquisition Complete.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Wait for Acquisition Complete.vi"/>
+				<Item Name="YKWT500 Initiate.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Initiate.vi"/>
+				<Item Name="YKWT500 Read Numeric (Preset Normal).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (Preset Normal).vi"/>
+				<Item Name="YKWT500 Configure Numeric Item.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item.vi"/>
+				<Item Name="YKWT500 Configure Numeric Item (Preset).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item (Preset).vi"/>
+				<Item Name="YKWT500 Configure Numeric Item (Delete).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric Item (Delete).vi"/>
+				<Item Name="YKWT500 Read Numeric (List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (List).vi"/>
+				<Item Name="YKWT500 Fetch Numeric (List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Fetch Numeric (List).vi"/>
+				<Item Name="_YKWT500 Query Number of List Order.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Query Number of List Order.vi"/>
+				<Item Name="YKWT500 Read Numeric (Preset List).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Read Numeric (Preset List).vi"/>
+				<Item Name="YKWT500 Configure Numeric List.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List.vi"/>
+				<Item Name="YKWT500 Configure Numeric List (Set).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List (Set).vi"/>
+				<Item Name="YKWT500 Configure Numeric List (Preset).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List (Preset).vi"/>
+				<Item Name="YKWT500 Configure Numeric List (Delete).vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Configure Numeric List (Delete).vi"/>
+				<Item Name="YKWT500 Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Reset.vi"/>
+				<Item Name="_YKWT500 Utility Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/_ykwt500.llb/_YKWT500 Utility Default Instrument Setup.vi"/>
+				<Item Name="YKWT500 Query Condition Status.vi" Type="VI" URL="/&lt;instrlib&gt;/ykwt500/ykwt500.llb/YKWT500 Query Condition Status.vi"/>
+				<Item Name="Tektronix DMM4020.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix DMM4020/Tektronix DMM4020.lvlib"/>
+				<Item Name="Fluke 2625A.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Fluke 2625A/Fluke 2625A.lvlib"/>
+				<Item Name="Configure Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/Fluke 2625A/Public/Configure/Configure Measurement.vi"/>
+				<Item Name="aardvark.dll" Type="Document" URL="/&lt;instrlib&gt;/aardvark/aardvark.dll"/>
+				<Item Name="Aardvark Convert Error.vi" Type="VI" URL="/&lt;instrlib&gt;/aardvark/aardvaru.llb/Aardvark Convert Error.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
-				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 				<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Format Variant Into String__ogtk.vi"/>
-				<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
-				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
-				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
-				<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
-				<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
-				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
 				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
-				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
-				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
-				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
-				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
-				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
 				<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
-				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
-				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
-				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
-				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
+				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
+				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
-				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
+				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
+				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
+				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
+				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
+				<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
+				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
+				<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
+				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
+				<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
+				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
+				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
+				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
+				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
@@ -460,67 +463,128 @@ The root ancestor is DEVICE that has 2 children: Generic Instrument, Control Sys
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 				<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
-				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
-				<Item Name="DAQmx Create DI Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create DI Channel (sub).vi"/>
-				<Item Name="DAQmx Create DO Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create DO Channel (sub).vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
 				<Item Name="DAQmx Start Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Start Task.vi"/>
-				<Item Name="DAQmx Write (Digital 1D Bool 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D Bool 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Counter 1D Time 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Time 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Write (Counter 1D Frequency 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Frequency 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Write (Digital 2D U16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 2D U16 NChan NSamp).vi"/>
-				<Item Name="DAQmx Write (Digital 1D U16 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U16 NChan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Digital 1D U16 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U16 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Write (Digital U16 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital U16 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Analog 2D I32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 2D I32 NChan NSamp).vi"/>
-				<Item Name="DAQmx Write (Counter 1DTicks NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1DTicks NChan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Counter 1D Time NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Time NChan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Counter 1D Frequency NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Frequency NChan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Counter Time 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter Time 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Counter Ticks 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter Ticks 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Counter Frequency 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter Frequency 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Analog 2D U16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 2D U16 NChan NSamp).vi"/>
-				<Item Name="DAQmx Write (Analog 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 2D I16 NChan NSamp).vi"/>
-				<Item Name="DAQmx Write (Digital 1D Bool NChan 1Samp 1Line).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D Bool NChan 1Samp 1Line).vi"/>
-				<Item Name="DAQmx Write (Digital 2D Bool NChan 1Samp NLine).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 2D Bool NChan 1Samp NLine).vi"/>
-				<Item Name="DAQmx Write (Digital 1D U8 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U8 NChan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Digital 1D U32 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U32 NChan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Digital U32 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital U32 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Digital U8 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital U8 1Chan 1Samp).vi"/>
-				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
-				<Item Name="DTbl Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Uncompress Digital.vi"/>
-				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
-				<Item Name="DAQmx Write (Digital 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D Wfm NChan NSamp).vi"/>
-				<Item Name="DAQmx Write (Analog 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D Wfm NChan NSamp).vi"/>
-				<Item Name="DAQmx Write (Digital Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital Wfm 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Digital 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D Wfm NChan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Raw 1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D U8).vi"/>
-				<Item Name="DAQmx Write (Raw 1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D U32).vi"/>
-				<Item Name="DAQmx Write (Raw 1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D U16).vi"/>
-				<Item Name="DAQmx Write (Raw 1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D I8).vi"/>
-				<Item Name="DAQmx Write (Raw 1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D I32).vi"/>
-				<Item Name="DAQmx Write (Raw 1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D I16).vi"/>
-				<Item Name="DAQmx Write (Digital Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital Wfm 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Digital Bool 1Line 1Point).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital Bool 1Line 1Point).vi"/>
-				<Item Name="DAQmx Write (Digital 1D U8 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U8 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Write (Digital 1D U32 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U32 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Write (Digital 2D U8 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 2D U8 NChan NSamp).vi"/>
-				<Item Name="DAQmx Write (Digital 2D U32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 2D U32 NChan NSamp).vi"/>
-				<Item Name="DAQmx Write (Analog Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog Wfm 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Write (Analog Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog Wfm 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Analog DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog DBL 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Analog 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 2D DBL NChan NSamp).vi"/>
-				<Item Name="DAQmx Write (Analog 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D Wfm NChan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL NChan 1Samp).vi"/>
-				<Item Name="DAQmx Write (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write.vi"/>
-				<Item Name="Monitored Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/MGI/Monitored Actor/Monitored Actor.lvlib"/>
 				<Item Name="Match 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Match 1D String Array.vi"/>
 				<Item Name="Match Regular Expression_Execute.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_Execute.vi"/>
 				<Item Name="Match Regular Expression_ExecuteOffsets.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_ExecuteOffsets.vi"/>
 				<Item Name="DAQmx Create Virtual Channel.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Virtual Channel.vi"/>
+				<Item Name="DAQmx Create Channel (DI-Digital Input).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (DI-Digital Input).vi"/>
+				<Item Name="DAQmx Create Channel (DO-Digital Output).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (DO-Digital Output).vi"/>
+				<Item Name="DAQmx Read (Digital Bool 1Line 1Point).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Bool 1Line 1Point).vi"/>
+				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
+				<Item Name="DAQmx Save Global Channel.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/storage.llb/DAQmx Save Global Channel.vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="NI_report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_report.lvclass"/>
+				<Item Name="NI_ReportGenerationCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_ReportGenerationCore.lvlib"/>
+				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
+				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
+				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
+				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
+				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
+				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
+				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
+				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
+				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
+				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
+				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
+				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
+				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
+				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
+				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
+				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
+				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
+				<Item Name="Read Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value STR.vi"/>
+				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
+				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
+				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
+				<Item Name="Create ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create ActiveX Event Queue.vi"/>
+				<Item Name="Wait types.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait types.ctl"/>
+				<Item Name="Create Error Clust.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create Error Clust.vi"/>
+				<Item Name="Wait On ActiveX Event.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait On ActiveX Event.vi"/>
+				<Item Name="EventData.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/EventData.ctl"/>
+				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/OccFireType.ctl"/>
+				<Item Name="Destroy ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Destroy ActiveX Event Queue.vi"/>
+				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
+				<Item Name="NI_Standard Report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Standard Report/NI_Standard Report.lvclass"/>
+				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
+				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
+				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
+				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
+				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
+				<Item Name="Write BMP Data To Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data To Buffer.vi"/>
+				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
+				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Built App File Layout.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Built App File Layout.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="NI_Excel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Excel/NI_Excel.lvclass"/>
+				<Item Name="NI_ReportGenerationToolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_office/NI_ReportGenerationToolkit.lvlib"/>
+				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
+				<Item Name="Handle Open Word or Excel File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Toolkit/Handle Open Word or Excel File.vi"/>
+				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
+				<Item Name="ClearError.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ClearError.vi"/>
+				<Item Name="DAQmx Write (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
+				<Item Name="DAQmx Write (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Analog 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Analog 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Analog DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Analog Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Analog Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital 2D U32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 2D U32 NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital 2D U8 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 2D U8 NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D Bool 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D Bool 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D U32 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U32 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D U8 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U8 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital Wfm 1Chan NSamp).vi"/>
+				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
+				<Item Name="DTbl Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Uncompress Digital.vi"/>
+				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
+				<Item Name="DAQmx Write (Raw 1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D I16).vi"/>
+				<Item Name="DAQmx Write (Raw 1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D I32).vi"/>
+				<Item Name="DAQmx Write (Raw 1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D I8).vi"/>
+				<Item Name="DAQmx Write (Raw 1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D U16).vi"/>
+				<Item Name="DAQmx Write (Raw 1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D U32).vi"/>
+				<Item Name="DAQmx Write (Raw 1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D U8).vi"/>
+				<Item Name="DAQmx Write (Digital 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Analog 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D Wfm NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D Wfm NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital U8 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital U8 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital U32 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital U32 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D U32 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U32 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D U8 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U8 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital 2D Bool NChan 1Samp NLine).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 2D Bool NChan 1Samp NLine).vi"/>
+				<Item Name="DAQmx Write (Digital 1D Bool NChan 1Samp 1Line).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D Bool NChan 1Samp 1Line).vi"/>
+				<Item Name="DAQmx Write (Analog 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 2D I16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Analog 2D U16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 2D U16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Counter Frequency 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter Frequency 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Counter Ticks 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter Ticks 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Counter Time 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter Time 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Counter 1D Frequency NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Frequency NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Counter 1D Time NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Time NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Counter 1DTicks NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1DTicks NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Analog 2D I32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 2D I32 NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital U16 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital U16 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D U16 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U16 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Digital 1D U16 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D U16 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Write (Digital 2D U16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 2D U16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Write (Counter 1D Frequency 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Frequency 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Write (Counter 1D Time 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Time 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Create Channel (AI-Voltage-Basic).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Voltage-Basic).vi"/>
 				<Item Name="DAQmx Rollback Channel If Error.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Rollback Channel If Error.vi"/>
 				<Item Name="DAQmx Create AI Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AI Channel (sub).vi"/>
@@ -534,8 +598,8 @@ The root ancestor is DEVICE that has 2 children: Generic Instrument, Control Sys
 				<Item Name="DAQmx Create Channel (AO-Voltage-Basic).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AO-Voltage-Basic).vi"/>
 				<Item Name="DAQmx Create AO Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AO Channel (sub).vi"/>
 				<Item Name="DAQmx Create Channel (AO-FuncGen).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AO-FuncGen).vi"/>
-				<Item Name="DAQmx Create Channel (DI-Digital Input).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (DI-Digital Input).vi"/>
-				<Item Name="DAQmx Create Channel (DO-Digital Output).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (DO-Digital Output).vi"/>
+				<Item Name="DAQmx Create DI Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create DI Channel (sub).vi"/>
+				<Item Name="DAQmx Create DO Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create DO Channel (sub).vi"/>
 				<Item Name="DAQmx Create Channel (CI-Frequency).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Frequency).vi"/>
 				<Item Name="DAQmx Create CI Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create CI Channel (sub).vi"/>
 				<Item Name="DAQmx Create Channel (CI-Period).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Period).vi"/>
@@ -598,58 +662,66 @@ The root ancestor is DEVICE that has 2 children: Generic Instrument, Control Sys
 				<Item Name="DAQmx Create Channel (AI-Velocity-IEPE Sensor).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Velocity-IEPE Sensor).vi"/>
 				<Item Name="DAQmx Create Channel (AI-Strain-Rosette Strain Gage).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Strain-Rosette Strain Gage).vi"/>
 				<Item Name="DAQmx Create Strain Rosette AI Channels (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Strain Rosette AI Channels (sub).vi"/>
-				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
-				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="DAQmx Read (Counter Pulse Time 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Time 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Counter Pulse Ticks 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Ticks 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Counter Pulse Freq 1 Chan 1 Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Freq 1 Chan 1 Samp).vi"/>
-				<Item Name="DAQmx Read (Counter 1D Pulse Time 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D Pulse Time 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Counter 1D Pulse Ticks 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D Pulse Ticks 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Counter 1D Pulse Freq 1 Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D Pulse Freq 1 Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Digital 2D U16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D U16 NChan NSamp).vi"/>
-				<Item Name="DAQmx Read (Digital 1D U16 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U16 NChan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Digital 1D U16 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U16 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Digital U16 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital U16 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Analog 2D U32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D U32 NChan NSamp).vi"/>
-				<Item Name="DAQmx Read (Analog 2D I32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D I32 NChan NSamp).vi"/>
-				<Item Name="DAQmx Read (Analog 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D I16 NChan NSamp).vi"/>
-				<Item Name="DAQmx Read (Analog 2D U16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D U16 NChan NSamp).vi"/>
-				<Item Name="DAQmx Read (Digital 2D Bool NChan 1Samp NLine).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D Bool NChan 1Samp NLine).vi"/>
-				<Item Name="DAQmx Read (Digital 1D Bool NChan 1Samp 1Line).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Bool NChan 1Samp 1Line).vi"/>
-				<Item Name="DAQmx Read (Digital U32 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital U32 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Digital U8 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital U8 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Digital 1D U32 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U32 NChan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Digital 1D U8 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U8 NChan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Counter 1D U32 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D U32 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Counter U32 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter U32 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Counter DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter DBL 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Counter 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D DBL 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Digital Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp).vi"/>
-				<Item Name="DAQmx Read (Raw 1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D U8).vi"/>
-				<Item Name="DAQmx Read (Raw 1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D U32).vi"/>
-				<Item Name="DAQmx Read (Raw 1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D U16).vi"/>
-				<Item Name="DAQmx Read (Raw 1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I8).vi"/>
-				<Item Name="DAQmx Read (Raw 1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I32).vi"/>
-				<Item Name="DAQmx Read (Raw 1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I16).vi"/>
-				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Digital Bool 1Line 1Point).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Bool 1Line 1Point).vi"/>
-				<Item Name="DAQmx Read (Digital 2D U8 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D U8 NChan NSamp).vi"/>
-				<Item Name="DAQmx Read (Digital 2D U32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D U32 NChan NSamp).vi"/>
-				<Item Name="DAQmx Read (Digital 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Digital 1D U8 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U8 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Digital 1D U32 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U32 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Digital 1D Bool 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Bool 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Analog Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Analog Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Analog DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog DBL 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Analog 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D DBL NChan NSamp).vi"/>
-				<Item Name="DAQmx Read (Analog 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL NChan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Create Channel (CI-Duty Cycle).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Duty Cycle).vi"/>
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp).vi"/>
-				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
-				<Item Name="DAQmx Save Global Channel.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/storage.llb/DAQmx Save Global Channel.vi"/>
+				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Analog 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Analog 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Analog DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Analog Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Analog Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D Bool 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Bool 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D U32 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U32 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D U8 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U8 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital 2D U32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D U32 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital 2D U8 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D U8 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Raw 1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I16).vi"/>
+				<Item Name="DAQmx Read (Raw 1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I32).vi"/>
+				<Item Name="DAQmx Read (Raw 1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I8).vi"/>
+				<Item Name="DAQmx Read (Raw 1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D U16).vi"/>
+				<Item Name="DAQmx Read (Raw 1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D U32).vi"/>
+				<Item Name="DAQmx Read (Raw 1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D U8).vi"/>
+				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Counter U32 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter U32 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D U32 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D U32 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D U8 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U8 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D U32 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U32 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital U8 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital U8 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital U32 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital U32 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D Bool NChan 1Samp 1Line).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Bool NChan 1Samp 1Line).vi"/>
+				<Item Name="DAQmx Read (Digital 2D Bool NChan 1Samp NLine).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D Bool NChan 1Samp NLine).vi"/>
+				<Item Name="DAQmx Read (Analog 2D U16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D U16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Analog 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D I16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Analog 2D I32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D I32 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Analog 2D U32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D U32 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital U16 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital U16 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D U16 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U16 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D U16 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U16 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital 2D U16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D U16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D Pulse Freq 1 Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D Pulse Freq 1 Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D Pulse Ticks 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D Pulse Ticks 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D Pulse Time 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D Pulse Time 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter Pulse Freq 1 Chan 1 Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Freq 1 Chan 1 Samp).vi"/>
+				<Item Name="DAQmx Read (Counter Pulse Ticks 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Ticks 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Counter Pulse Time 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Time 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D U32 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D U32 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Counter 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter 2D U32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 2D U32 NChan NSamp).vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
+				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
+				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
+				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="DAQmx Create Channel (CI-Velocity-Angular).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Velocity-Angular).vi"/>
+				<Item Name="DAQmx Create Channel (CI-Velocity-Linear).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Velocity-Linear).vi"/>
 			</Item>
 			<Item Name="Global 2.vi" Type="VI" URL="../WT1600 Card/Global 2.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
@@ -662,6 +734,12 @@ The root ancestor is DEVICE that has 2 children: Generic Instrument, Control Sys
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Dimming Options.ctl" Type="VI" URL="../../Focal Point End Of Line Tester/Controls/Dimming Options.ctl"/>
+			<Item Name="Query.vi" Type="VI" URL="../Lutron Grafik Eye/Lutron QS Object/Query.vi"/>
+			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -787,6 +865,321 @@ The root ancestor is DEVICE that has 2 children: Generic Instrument, Control Sys
 				<Property Name="TgtF_productName" Type="Str">Tektronix DMM4020 Test</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{DD88233E-9F92-4DFB-92D9-27E399EA4FE6}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Tektronix DMM4020 Test.exe</Property>
+			</Item>
+			<Item Name="Generic Instrument Packed Library" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B650E093-A0F0-4308-A011-06CEC94CA5DE}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Generic Instrument Packed Library</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Generic Instrument Packed Library</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{7B87C5B4-1A2F-41CA-9EF5-1AEB7AD22A1C}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GenericInstrumentPackedLibrary.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Generic Instrument Packed Library/GenericInstrumentPackedLibrary.lvlibp</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Generic Instrument Packed Library</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{729FE421-B722-42D6-AFE9-EEF71E03695A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SetUp VIs.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Misc. VI/Fibonaci Calculator demo.vi</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Misc. VI/Find all visa.vi</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Misc. VI/MAIN.vi</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Misc. VI/Record Data from Tektronix PA1000.vi</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].type" Type="Str">VI</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Misc. VI/States of Find all.ctl</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Misc. VI/Test.vi</Property>
+				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Misc. VI/Text File Reader Test.vi</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].type" Type="Str">VI</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Misc. VI/Universal Power Meter.vi</Property>
+				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Misc. VI/Updater.vi</Property>
+				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/TEST/1Main.vi</Property>
+				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[19].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Generic Device.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[2].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[2].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/TEST/2Slave.vi</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[20].type" Type="Str">VI</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/TEST/Temp.vi</Property>
+				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[21].type" Type="Str">VI</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Controls/Enum for Instrument Finder State Machine.ctl</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[22].type" Type="Str">VI</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Controls/Graph Button.ctl</Property>
+				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[23].type" Type="Str">VI</Property>
+				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/Controls/Instrument ID Object.ctl</Property>
+				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[24].type" Type="Str">VI</Property>
+				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/Controls/Integration State.ctl</Property>
+				<Property Name="Source[25].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[25].type" Type="Str">VI</Property>
+				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/Controls/Manufacturer List.ctl</Property>
+				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[26].type" Type="Str">VI</Property>
+				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/Controls/Master Control.ctl</Property>
+				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[27].type" Type="Str">VI</Property>
+				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/Controls/Measured Value Header Control.ctl</Property>
+				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[28].type" Type="Str">VI</Property>
+				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/Controls/Measurement String Tags.ctl</Property>
+				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[29].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Data Saving.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[30].itemID" Type="Ref">/My Computer/Controls/Models.ctl</Property>
+				<Property Name="Source[30].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[30].type" Type="Str">VI</Property>
+				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[31].itemID" Type="Ref">/My Computer/Controls/Numeric Indicator.ctl</Property>
+				<Property Name="Source[31].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[31].type" Type="Str">VI</Property>
+				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[32].itemID" Type="Ref">/My Computer/Controls/Numeric Time.ctl</Property>
+				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[32].type" Type="Str">VI</Property>
+				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/Controls/PathFinder Type def.ctl</Property>
+				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[33].type" Type="Str">VI</Property>
+				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/Controls/State Control.ctl</Property>
+				<Property Name="Source[34].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[34].type" Type="Str">VI</Property>
+				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/My Computer/Controls/Type.ctl</Property>
+				<Property Name="Source[35].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[35].type" Type="Str">VI</Property>
+				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/Controls/Unit Measurement.ctl</Property>
+				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[36].type" Type="Str">VI</Property>
+				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/Controls/I-O characteristics.ctl</Property>
+				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[37].type" Type="Str">VI</Property>
+				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/Controls/Data Acquisition Channel Settings.ctl</Property>
+				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[38].type" Type="Str">VI</Property>
+				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/Controls/Generic Device Type.ctl</Property>
+				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[39].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Control System/Lutron QS Control Protocol.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/Controller/Message for Controller/Write array of Instrument value to Ref Msg.lvclass</Property>
+				<Property Name="Source[40].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[40].type" Type="Str">Library</Property>
+				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[41].itemID" Type="Ref">/My Computer/Controller/Message for Controller/Write Array refnum Msg.lvclass</Property>
+				<Property Name="Source[41].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[41].type" Type="Str">Library</Property>
+				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[42].itemID" Type="Ref">/My Computer/Controller/Message for Controller/write array value to Ref Msg.lvclass</Property>
+				<Property Name="Source[42].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[42].type" Type="Str">Library</Property>
+				<Property Name="Source[43].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[43].itemID" Type="Ref">/My Computer/Controller/Message for Controller/Write Instrument finder Done boolean to Ref Msg.lvclass</Property>
+				<Property Name="Source[43].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[43].type" Type="Str">Library</Property>
+				<Property Name="Source[44].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[44].itemID" Type="Ref">/My Computer/Controller/Controller 2.vi</Property>
+				<Property Name="Source[44].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[44].type" Type="Str">VI</Property>
+				<Property Name="Source[45].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[45].itemID" Type="Ref">/My Computer/Controller/Controller.lvclass</Property>
+				<Property Name="Source[45].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[45].type" Type="Str">Library</Property>
+				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[46].itemID" Type="Ref">/My Computer/Controller/Controller.vi</Property>
+				<Property Name="Source[46].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[46].type" Type="Str">VI</Property>
+				<Property Name="Source[47].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[47].itemID" Type="Ref">/My Computer/Controller/Generic Prompt.vi</Property>
+				<Property Name="Source[47].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[47].type" Type="Str">VI</Property>
+				<Property Name="Source[48].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[48].itemID" Type="Ref">/My Computer/Controller/Open VISA Session Monitor.vi</Property>
+				<Property Name="Source[48].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[48].type" Type="Str">VI</Property>
+				<Property Name="Source[49].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[49].itemID" Type="Ref">/My Computer/Instruments/Data Logger.lvlib</Property>
+				<Property Name="Source[49].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[49].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[49].type" Type="Str">Library</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Control System/Control System Object.lvlib</Property>
+				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="Source[50].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[50].itemID" Type="Ref">/My Computer/Instruments/Display Panel.lvlib</Property>
+				<Property Name="Source[50].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[50].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[50].type" Type="Str">Library</Property>
+				<Property Name="Source[51].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[51].itemID" Type="Ref">/My Computer/Instruments/Generic Data Acquisition.lvlib</Property>
+				<Property Name="Source[51].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[51].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[51].type" Type="Str">Library</Property>
+				<Property Name="Source[52].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[52].itemID" Type="Ref">/My Computer/Instruments/fileversion.lvlib</Property>
+				<Property Name="Source[52].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[52].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[52].type" Type="Str">Library</Property>
+				<Property Name="Source[53].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[53].itemID" Type="Ref">/My Computer/Instruments/Generic Instrument.lvlib</Property>
+				<Property Name="Source[53].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[53].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[53].type" Type="Str">Library</Property>
+				<Property Name="Source[54].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[54].itemID" Type="Ref">/My Computer/Instruments/Generic Load.lvlib</Property>
+				<Property Name="Source[54].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[54].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[54].type" Type="Str">Library</Property>
+				<Property Name="Source[55].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[55].itemID" Type="Ref">/My Computer/Instruments/Generic Power Analyzer.lvlib</Property>
+				<Property Name="Source[55].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[55].type" Type="Str">Library</Property>
+				<Property Name="Source[56].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[56].itemID" Type="Ref">/My Computer/Instruments/Generic Power Supply.lvlib</Property>
+				<Property Name="Source[56].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[56].type" Type="Str">Library</Property>
+				<Property Name="Source[57].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[57].itemID" Type="Ref">/My Computer/Instruments/Generic Prompt.lvlib</Property>
+				<Property Name="Source[57].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[57].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[57].type" Type="Str">Library</Property>
+				<Property Name="Source[58].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[58].itemID" Type="Ref">/My Computer/Instruments/New Session Class.lvlib</Property>
+				<Property Name="Source[58].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[58].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[58].type" Type="Str">Library</Property>
+				<Property Name="Source[59].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[59].itemID" Type="Ref">/My Computer/Instruments/Observer Pattern Actor Interface.lvlib</Property>
+				<Property Name="Source[59].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[59].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[59].type" Type="Str">Library</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Control System/Find All.vi</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[60].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[60].itemID" Type="Ref">/My Computer/Instruments/String Contains.vi</Property>
+				<Property Name="Source[60].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[60].type" Type="Str">VI</Property>
+				<Property Name="Source[61].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[61].itemID" Type="Ref">/My Computer/Instruments/Subpanel Insertion.lvlib</Property>
+				<Property Name="Source[61].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[61].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[61].type" Type="Str">Library</Property>
+				<Property Name="Source[62].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[62].itemID" Type="Ref">/My Computer/Instruments/test scratch.vi</Property>
+				<Property Name="Source[62].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[62].type" Type="Str">VI</Property>
+				<Property Name="Source[63].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[63].itemID" Type="Ref">/My Computer/Instruments/Universal Power Meter.lvlib</Property>
+				<Property Name="Source[63].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[63].type" Type="Str">Library</Property>
+				<Property Name="Source[64].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[64].itemID" Type="Ref">/My Computer/Instruments/AMS TS3472 Light Sensor.lvlib</Property>
+				<Property Name="Source[64].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[64].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[64].type" Type="Str">Library</Property>
+				<Property Name="Source[65].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[65].itemID" Type="Ref">/My Computer/Instruments/Host Adapter.lvlib</Property>
+				<Property Name="Source[65].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[65].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[65].type" Type="Str">Library</Property>
+				<Property Name="Source[66].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[66].itemID" Type="Ref">/My Computer/Instruments/Generic Digital Multi Meter.lvlib</Property>
+				<Property Name="Source[66].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[66].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[66].type" Type="Str">Library</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Aardvark Find Devices.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Control System Visa Address and String cluster.ctl</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Instruments/Abstract Sensor.lvlib</Property>
+				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">67</Property>
+				<Property Name="TgtF_companyName" Type="Str">Focal Point LLC</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Generic Instrument Packed Library</Property>
+				<Property Name="TgtF_internalName" Type="Str">Generic Instrument Packed Library</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Focal Point LLC</Property>
+				<Property Name="TgtF_productName" Type="Str">Generic Instrument Packed Library</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{6A024A02-B623-42D1-B9EE-76DF5670B171}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GenericInstrumentPackedLibrary.lvlibp</Property>
 			</Item>
 		</Item>
 	</Item>
